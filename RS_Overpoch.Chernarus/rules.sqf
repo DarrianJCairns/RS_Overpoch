@@ -6,7 +6,7 @@ _messages = [
 	["Website/Forums", "www.risingsuncommunity.com"],
 	["Server Rules", "Duping, glitching or using any<br />exploit will result in a<br />permanent ban."],
 	["Server Rules", "No VOIP in side."],
-	["Server Rules", "Hackers will be banned permanently"]
+	["Server Rules", "Hackers will be banned permanently!"]
 ];
  
 _timeout = 10;
