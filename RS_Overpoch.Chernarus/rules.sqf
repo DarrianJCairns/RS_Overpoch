@@ -9,7 +9,7 @@ _messages = [
 	["Website/Forums", "RisingSunCommunity.com"],
 	["Server Rules", "No VOIP in side."],
 	["Server Rules", "Duping, glitching or using any<br />exploit will result in a<br />permanent ban."],
-	["Server Rules", "Hackers will be banned permanently!"]
+	["Server Rules", "Hackers will be banned permanently!"],
 	["Server Rules", "Camping traders IS allowed"],
 	["Server Rules", "Base Raiding 24/7"],	
 	["Server Rules", "Vehicles left within 500m of trader are moved to Junk Yard on restart."],	
