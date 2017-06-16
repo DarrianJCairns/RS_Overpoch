@@ -6,7 +6,6 @@ _messages = [
 	["Website/Forums", "www.risingsuncommunity.com"],
 	["Discord", "discord.gg/TEk4djB"],
 	["Need Help?", "Join Discord for an admin discord.gg/xgm8j6z"],
-	["Website/Forums", "RisingSunCommunity.com"],
 	["Server Rules", "No VOIP in side."],
 	["Server Rules", "Duping, glitching or using any<br />exploit will result in a<br />permanent ban."],
 	["Server Rules", "Hackers will be banned permanently!"],
