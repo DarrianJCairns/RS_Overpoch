@@ -1,12 +1,28 @@
 private ["_messages","_timeout"];
 
 _messages = [
-	["Welcome to Rising Sun", (name player)],
+	["RS - Community Overpoch", "Welcome "+(name player)],
 	["World", worldName],
 	["Website/Forums", "www.risingsuncommunity.com"],
-	["Server Rules", "Duping, glitching or using any<br />exploit will result in a<br />permanent ban."],
+	["Discord", "discord.gg/TEk4djB"],
+	["Need Help?", "Join Discord for an admin discord.gg/xgm8j6z"],
+	["Website/Forums", "blackholegaming.us/"],
 	["Server Rules", "No VOIP in side."],
+	["Server Rules", "Duping, glitching or using any<br />exploit will result in a<br />permanent ban."],
 	["Server Rules", "Hackers will be banned permanently!"]
+	["Server Rules", "Camping traders IS allowed"],
+	["Server Rules", "Base Raiding 24/7"],	
+	["Server Rules", "Vehicles left within 500m of trader are moved to Junk Yard on restart."],	
+	["Server Rules", "THIS IS A HIGH PVP SERVER- EXPECT TO DIE A LOT"],
+	["Server Rules", "Hackers will be banned permanently<br />Respect others"],
+	["Server Hints", "Easy Coins= Cooked Meats"],
+	["Server Hints", "Vehicles moved to Trader Junkyard at reset and unlocked"],
+	["Server Hints", "Armed Wild Spawn vehicles respawn each reset"],
+	["Server Hints", "Report any bug/small or big on discord"],
+	["Raid a base??", "Use a Satchel Charge to Raid bases"],
+	["Having issues?", "RECORD and submit a ticket or join discord"],
+
+	["Rising Sun", "Thank you for playing Rising Sun Overpoch!"]
 ];
  
 _timeout = 10;
