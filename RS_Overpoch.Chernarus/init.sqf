@@ -88,8 +88,13 @@ spawnShoremode = 1; // Random spawn locations  1 = on shores, 0 = inland
 EpochUseEvents = true; //Enable event scheduler. Define custom scripts in dayz_server\modules to run on a schedule.
 
 EpochEvents = [
-	["any","any","any","any",5,"abandonedvault"],
-	["any","any","any","any",10,"abandonedvault"]
+	["any","any","any","any",60,"abandonedvault"],
+	["any","any","any","any",120,"abandonedvault"],
+	["any","any","any","any",30,"construction"],
+	["any","any","any","any",10,"military"],
+	["any","any","any","any",90,"secret_event"],
+	["any","any","any","any",10,"Supplyitems"],
+	["any","any","any","any",150,"military"]
 ];
 
 // EPOCH CONFIG VARIABLES END //
