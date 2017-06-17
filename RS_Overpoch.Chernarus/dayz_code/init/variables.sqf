@@ -1,6 +1,6 @@
 Z_singleCurrency = true;
 
-DZE_maintainCurrencyRate = 1000;
+DZE_maintainCurrencyRate = 2500;
 Z_bankVariable = "moneySpecial"; // If using single currency this is the variable name used to store object bank wealth.
 Z_globalVariable = "GlobalMoney"; // If using single currency this is the variable name used to store coins globally.
 DZE_safeVehicle = ["ParachuteWest","ParachuteC","Old_bike_TK_INS_EP1"];
