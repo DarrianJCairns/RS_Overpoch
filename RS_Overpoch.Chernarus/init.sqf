@@ -64,7 +64,7 @@ DZE_R3F_WEIGHT = false; // Enable R3F weight. Players carrying too much will be 
 DZE_slowZombies = true; // Force zombies to always walk
 DZE_StaticConstructionCount = 1; // Steps required to build. If greater than 0 this applies to all objects.
 DZE_GodModeBase = true; // Make player built base objects indestructible
-//DZE_GodModeBaseExclude = ["CinderWallDoorwayLocked_DZ","CinderWallDoorSmallLocked_DZ","CinderWallDoorLocked_DZ","WoodFloor_DZ","WoodLargeWall_DZ","WoodLargeWallWin_DZ","WoodFloorQuarter_DZ","WoodStairsSans_DZ","Land_DZE_LargeWoodDoorLocked","WoodStairsRails_DZ","WoodLadder_DZ","WoodRamp_DZ","WoodSmallWall_DZ","WoodSmallWallThird_DZ"];
+DZE_GodModeBaseExclude = ["CinderWallDoor_DZ","CinderWallDoorwayLocked_DZ","CinderWallDoorSmallLocked_DZ","CinderWallDoorLocked_DZ","WoodFloor_DZ","WoodLargeWall_DZ","WoodLargeWallWin_DZ","WoodFloorQuarter_DZ","WoodStairsSans_DZ","Land_DZE_LargeWoodDoorLocked","WoodStairsRails_DZ","WoodLadder_DZ","WoodRamp_DZ","WoodSmallWall_DZ","WoodSmallWallThird_DZ"];
 DZE_requireplot = 1; // Require a plot pole to build  0 = Off, 1 = On
 DZE_PlotPole = [80,200]; // Radius owned by plot pole [Regular objects,Other plotpoles]. Difference between them is the minimum buffer between bases.
 DZE_BuildingLimit = 350; // Max number of built objects allowed in DZE_PlotPole radius
