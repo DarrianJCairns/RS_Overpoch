@@ -243,7 +243,7 @@ if (!isDedicated) then {
 
 
 // Bank markers
-//execVM "scripts\bankMarker\addbankmarkers.sqf";
+execVM "scripts\bankMarker\addbankmarkers.sqf";
 
 // Weed farms
 //[] execVM "scripts\WeedFarm\farms.sqf";
