@@ -52,7 +52,7 @@ DefaultWeapons = ["ItemRadio"];
 //DefaultBackpack = "DZ_Patrol_Pack_EP1";
 //DefaultBackpackItems = []; // Can include both weapons and magazines i.e. ["PDW_DZ","30Rnd_9x19_UZI"];
 dayz_paraSpawn = false; // Halo spawn
-dayz_poleSafeArea = 60; // Default = 30m, the buildable distance
+dayz_poleSafeArea = 80; // Default = 30m, the buildable distance
 DZE_NameTags = 0; // Name displays when looking at player up close  0 = Off, 1= On, 2 = Player choice
 DZE_DeathMsgDynamicText = true; // Display death messages as dynamicText in the top left with weapon icons.
 DZE_DeathMsgChat = "global"; //"none","global","side","system" Display death messages in selected chat channel.
