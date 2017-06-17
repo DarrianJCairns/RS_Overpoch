@@ -90,11 +90,12 @@ EpochUseEvents = true; //Enable event scheduler. Define custom scripts in dayz_s
 EpochEvents = [
 	["any","any","any","any",60,"abandonedvault"],
 	["any","any","any","any",120,"abandonedvault"],
-	["any","any","any","any",30,"construction"],
-	["any","any","any","any",10,"military"],
+	["any","any","any","any",30,"Construction"],
+	["any","any","any","any",10,"Military"],
 	["any","any","any","any",90,"secret_event"],
 	["any","any","any","any",10,"Supplyitems"],
-	["any","any","any","any",150,"military"]
+	["any","any","any","any",150,"Military"],
+	["any","any","any","any",150,"Treasure"]
 ];
 
 // EPOCH CONFIG VARIABLES END //
