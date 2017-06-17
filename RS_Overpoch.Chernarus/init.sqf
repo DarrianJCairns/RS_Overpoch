@@ -134,7 +134,10 @@ RestrictedBuildingZones = [
 	["Boat Dealer East", [13532.614,6355.9497, 0], 800],
 	["Wholesaler South", [4063.4226,11664.19, 0], 800],
 	["Gem Trader", [6070.3203, 1941.1635, 0], 800],
-	["NWAF", [4467.44,10334.4, 0], 900]
+	["NWAF", [4467.44,10334.4, 0], 900],
+	["Cherno", [6738.89,2574.77, 0], 800],
+	["Elektro", [10362.5,2120.6, 0], 800],
+	["Berezino", [12025.5,9087.51, 0], 400]
 ];
 
 diag_log 'dayz_preloadFinished reset';
