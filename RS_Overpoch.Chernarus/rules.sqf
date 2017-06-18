@@ -24,7 +24,7 @@ _messages = [
 	["Rising Sun", "Thank you for playing Rising Sun Overpoch!"]
 ];
  
-_timeout = 10;
+_timeout = 5;
 {
 	private ["_title","_content","_titleText"];
 	uiSleep 2;
