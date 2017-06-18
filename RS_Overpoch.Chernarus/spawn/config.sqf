@@ -24,7 +24,7 @@ class_public = [ // These are visible to anyone on the server
 	["Hero 15k","BAF_Soldier_FAC_DDPM","SurvivorW2_DZ",[START_ITEMS,"30Rnd_9x19_MP5SD"],[START_WEAPONS,"MP5SD"],"DZ_British_ACU",["PartGeneric"],[],0,15000,0,""],
 	["Hero 5k","Soldier_Sniper_PMC_DZ","SurvivorW2_DZ",[START_ITEMS,"10Rnd_303British",2],[START_WEAPONS,"LeeEnfield_DZ"],"DZ_British_ACU",["PartGeneric"],[],0,5000,0,""],
 	
-	["Neutral","Survivor2_DZ","SurvivorW2_DZ",[START_ITEMS],[START_WEAPONS],"DZ_British_ACU",[],[],0,0,0],
+	["Neutral","Survivor2_DZ","SurvivorW2_DZ",[START_ITEMS,"30Rnd_9x21_Mag",1],[START_WEAPONS,"SMG_02_F"],"DZ_British_ACU",[],[],0,0,0],
 	
 	["Bandit 5k","Bandit1_DZ","BanditW1_DZ",[START_ITEMS,"10Rnd_303British",2],[START_WEAPONS,"LeeEnfield_DZ"],"DZ_British_ACU",["PartGeneric"],[],0,-5000,0,""],
 	["Bandit 15k","Soldier_Bodyguard_AA12_PMC_DZ","INS_Soldier_AR_DZ",[START_ITEMS,"30Rnd_9x19_MP5SD"],[START_WEAPONS,"MP5SD"],"DZ_British_ACU",["PartGeneric"],[],0,-15000,0,""],
