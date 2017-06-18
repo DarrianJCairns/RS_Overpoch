@@ -10,14 +10,14 @@ class_selection = true; //Enable class selection dialog
 #define START_WEAPONS "Binocular_Vector","ItemMap","ItemGPS","ItemRadio","ItemToolbox","ItemCompass","G17_DZ"
 
 #define VIP_TOOLS "ItemToolbox","ItemMap","ItemRadio","ItemGPS","ItemCrowbar","Binocular_Vector","ItemCompass","ItemHatchet","ItemKnife","Itemetool","ItemFishingPole","NVGoggles_DZE"
-#define T3_TOOLS "ItemToolbox","ItemMap","ItemRadio","Binocular","ItemCompass","ItemHatchet","ItemKnife","Itemetool","ItemFishingPole","NVGoggles_DZE"
-#define T2_TOOLS "ItemToolbox","ItemMap","ItemRadio","Binocular","ItemCompass","ItemHatchet","Itemetool","ItemKnife","NVGoggles"
-#define T1_TOOLS "ItemToolbox","ItemMap","ItemRadio","Binocular","ItemCompass"
+#define T3_TOOLS "ItemToolbox","ItemMap","ItemRadio","Binocular_Vector","ItemCompass","ItemHatchet","ItemKnife","Itemetool","ItemFishingPole","NVGoggles_DZE"
+#define T2_TOOLS "ItemToolbox","ItemMap","ItemRadio","Binocular_Vector","ItemCompass","ItemHatchet","Itemetool","ItemKnife","NVGoggles"
+#define T1_TOOLS "ItemToolbox","ItemMap","ItemRadio","Binocular_Vector","ItemCompass"
 
 #define MED_ITEMS "ItemAntibiotic","ItemBloodBag","ItemMorphine","ItemPainkiller","ItemBandage",3,"ItemWaterbottle","FoodPistachio"
 #define NEUTRAL         "ItemMap","ItemFlashlight","ItemToolbox","ItemRadio"
-#define STARTER         "ItemMap","ItemFlashlight","ItemToolbox","ItemHatchet","Binocular","ItemCompass","ItemRadio"
-#define BASIC           "ItemMap","ItemFlashlight","ItemToolbox","ItemHatchet","Binocular","ItemCompass","ItemKnife","ItemMatchbox","ItemFishingPole","ItemRadio"
+#define STARTER         "ItemMap","ItemFlashlight","ItemToolbox","ItemHatchet","Binocular_Vector","ItemCompass","ItemRadio"
+#define BASIC           "ItemMap","ItemFlashlight","ItemToolbox","ItemHatchet","Binocular_Vector","ItemCompass","ItemKnife","ItemMatchbox","ItemFishingPole","ItemRadio"
 #define MODERATE        "ItemMap","ItemToolbox","ItemHatchet","Binocular_Vector","ItemCompass","ItemKnife","ItemMatchbox","ItemEtool","ItemCrowbar","ItemGPS","ItemRadio"
 #define VETERAN         "ItemMap","ItemToolbox","Binocular_Vector","ItemCompass","ItemKnife","ItemMatchbox","ItemEtool","ItemCrowbar","ItemGPS","ItemRadio"
 #define NEUTRAL_MED     "ItemMorphine","ItemPainkiller","ItemBandage",2,"ItemWaterbottle","FoodPistachio"
@@ -26,8 +26,6 @@ class_selection = true; //Enable class selection dialog
 #define VETERAN_PARTS   "PartEngine","PartVRotor","PartGeneric","PartGeneric"
 #define MOZZIE_ITEMS    "PartEngine","PartVRotor","PartFueltank"
 #define DEPLOY_ITEMS    "PartEngine","PartVRotor","PartFueltank","PartGeneric"
-
-class_public = [ // These are visible to anyone on the server
 
 class_public = [ // These are visible to anyone on the server
 
@@ -66,7 +64,7 @@ class_public = [ // These are visible to anyone on the server
 		  ]
 		],
 		["ItemBandage",3,"ItemPainkiller","ItemWaterbottle","FoodPistachio","PartGeneric"],5,
-		["ItemToolbox","ItemMap","ItemRadio","Binocular"],4,
+		["ItemToolbox","ItemMap","ItemRadio","Binocular_vector"],4,
 		["M4A1_DZ","AK74_DZ","L85_Holo_DZ","SA58_DZ"],2,
 		["M1911_DZ","Revolver_DZ","M9_DZ"],2,
 		["DZ_Assault_Pack_EP1"], // use [""] for none
