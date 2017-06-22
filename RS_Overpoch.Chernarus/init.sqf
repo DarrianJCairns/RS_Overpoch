@@ -69,7 +69,7 @@ DZE_requireplot = 1; // Require a plot pole to build  0 = Off, 1 = On
 DZE_PlotPole = [80,200]; // Radius owned by plot pole [Regular objects,Other plotpoles]. Difference between them is the minimum buffer between bases.
 DZE_BuildingLimit = 350; // Max number of built objects allowed in DZE_PlotPole radius
 DZE_SelfTransfuse = true; // Allow players to bloodbag themselves
-DZE_selfTransfuse_Values = [7000,15,120]; // [blood amount given, infection chance %, cooldown in seconds]
+DZE_selfTransfuse_Values = [7000,15,10]; // [blood amount given, infection chance %, cooldown in seconds]
 MaxDynamicDebris = 0; // Max number of random road blocks to spawn around the map
 MaxVehicleLimit = 0; // Max number of random vehicles to spawn around the map
 
@@ -85,17 +85,29 @@ dayz_requireRadio = false; // Require players to have a radio on their toolbelt 
 
 spawnArea = 1400; // Distance around markers to find a safe spawn position
 spawnShoremode = 1; // Random spawn locations  1 = on shores, 0 = inland
-EpochUseEvents = true; //Enable event scheduler. Define custom scripts in dayz_server\modules to run on a schedule.
 
+EpochUseEvents = true; //Enable event scheduler. Define custom scripts in dayz_server\modules to run on a schedule.
 EpochEvents = [
-	["any","any","any","any",60,"abandonedvault"],
-	["any","any","any","any",120,"abandonedvault"],
-	["any","any","any","any",30,"Construction"],
-	["any","any","any","any",10,"Military"],
-	["any","any","any","any",90,"secret_event"],
-	["any","any","any","any",10,"Supplyitems"],
-	["any","any","any","any",150,"Military"],
-	["any","any","any","any",150,"Treasure"]
+
+	["any","any","any","any",05,"Treasure"],
+	["any","any","any","any",30,"Treasure"],
+	["any","any","any","any",15,"Construction"],
+	["any","any","any","any",20,"Military"],
+	["any","any","any","any",35,"Supplyitems"],
+	["any","any","any","any",45,"Military"],
+	["any","any","any","any",15,"abandonedvault"],
+	["any","any","any","any",45,"abandonedvault"],
+	["any","any","any","any",90,"secret_event"]
+	
+// Removed due to time issues //
+//	["any","any","any","any",30,"abandonedvault"],
+//	["any","any","any","any",60,"abandonedvault"],
+//	["any","any","any","any",30,"Construction"],
+//	["any","any","any","any",10,"Military"],
+//	["any","any","any","any",90,"secret_event"],
+//	["any","any","any","any",10,"Supplyitems"],
+//	["any","any","any","any",150,"Military"],
+//	["any","any","any","any",150,"Treasure"]
 ];
 
 // EPOCH CONFIG VARIABLES END //
@@ -233,8 +245,8 @@ if (!isDedicated) then {
 	[] execVM "dayz_code\compile\remote_message.sqf";
 	
 	//Debug
-	execVM "scripts\CustomDebugMonitor\debug.sqf";
-	execVM "scripts\CustomDebugMonitor\hide_show.sqf";
+	//execVM "scripts\CustomDebugMonitor\debug.sqf";
+	//execVM "scripts\CustomDebugMonitor\hide_show.sqf";
 	
 	// Serive point
 	[] execVM "scripts\service_points\service_point.sqf";
