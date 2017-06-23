@@ -96,8 +96,7 @@ menu_Dr_Annie_Baker_EP1 = [
 ];
 // East Wholesaler
 menu_RU_Citizen4 = [
-	[["Wholesale",675],],
-	[],
+	[["Wholesale",675]],
 	"neutral"
 ];
 // General Store 3
@@ -108,7 +107,7 @@ menu_RU_WorkWoman5 = [
 ];
 // West Wholesaler
 menu_RU_Citizen1 = [
-	[["Wholesale",675],],
+	[["Wholesale",675]],
 	[],
 	"neutral"
 ];
