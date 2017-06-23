@@ -3,112 +3,112 @@ serverTraders = ["RU_Madam1","Tanny_PMC","RU_Citizen2","Worker1","ValentinaVicti
 
 // Hero Vendor
 menu_RU_Functionary1 = [
-	[["Attachments",693],["Military Armed",562],["Trucks Armed",479],["Helicopter Armed",493],["HeroAmmunition",7100],["HeroWeapons",7200],["HeroClothes",7300],["SpecialWeapons",1800],["SpecialAmmo",3950],["SpecialVehicleAmmo",3975],["Pistols",1350],["PistolAmmo",3300],["SDPistols",1300],["SDPistolAmmo",3350],["OverwatchHK416",1410],["OverwatchHK417",1420],["OverwatchTAR",1430],["OverwatchMAS",1440],["OverwatchDMR_DZ",1450],["OverwatchScar",1460],["OverwatchG3",1470],["OverwatchACR",1480],["OverwatchACRSD",1490],["OverwatchSniper",1415],["OverwatchGunAmmo",3400],["Metals",6100]],
+	[["Attachments",693],["Ammunition",478],["Currency and gems",1100],["Clothes",476],["Helicopter Armed",493],["Military Armed",562],["Trucks Armed",479],["Weapons",477],["LMG Variants",1008],["Explosives",529]],
 	[],
 	"hero"
 ];
 
 // Bandit Traders
 menu_GUE_Soldier_MG = [
-	[["Attachments",693],["Military Armed",569],["Trucks Armed",534],["Helicopter Armed",512],["BanditAmmunition",7500],["BanditWeapons",7600],["BanditCloths",7700],["SpecialWeapons",1800],["SpecialAmmo",3950],["SpecialVehicleAmmo",3975],["Pistols",1350],["PistolAmmo",3300],["SDPistols",1300],["SDPistolAmmo",3350],["OverwatchHK416",1410],["OverwatchHK417",1420],["OverwatchTAR",1430],["OverwatchMAS",1440],["OverwatchDMR_DZ",1450],["OverwatchScar",1460],["OverwatchG3",1470],["OverwatchACR",1480],["OverwatchACRSD",1490],["OverwatchSniper",1415],["OverwatchGunAmmo",3400],["Metals",6100]],
+	[["Attachments",693],["Ammunition",577],["Currency and gems",1100],["Clothing",575],["Helicopter Armed",512],["Military Armed",569],["Trucks Armed",534],["Weapons",627],["LMG Variants",1008],["Explosives",529]],
 	[],
 	"hostile"
 ];
 
 // Ammunition neutral
 menu_RU_Citizen3 = [
-	[["PistolAmmo",3300],["SDPistolAmmo",3350],["AssaultRifleAmmo",3700],["LightMachineGunAmmo",3500],["ShotgunsandSingleshotAmmo",3200],["SniperRifleAmmo",3100],["SubmachineGunAmmo",3900],["Metals",6100]],
+	[["Assault Rifle Ammo",621],["Light Machine Gun Ammo",622],["Pistol Ammo",625],["Shotguns and Single-shot Ammo",623],["Sniper Rifle Ammo",624],["Overwatch Ammo",1006],["Black Market Ammo",527],["Submachine Gun Ammo",626]],
 	[],
 	"neutral"
 ];
 // Weapons neutral
 menu_Rocker4 = [
-	[["Attachments",693],["Pistols",1350],["SDPistols",1300],["OverwatchHK416",1410],["OverwatchVIL",1002],["OverwatchHK417",1420],["OverwatchTAR",1430],["OverwatchMAS",1440],["OverwatchDMR_DZ",1450],["OverwatchScar",1460],["OverwatchG3",1470],["OverwatchACR",1480],["OverwatchACRSD",1490],["SniperRifle",1100],["OverwatchSniper",1415],["AssaultRifle",1400],["SubmachineGuns",1700],["LightMachineGun",1900],["ShotgunsandSingleshot",1200],["Metals",6100]],
+	[["Attachments",693],["HK416 Variants",1004],["HK417 Variants",1002],["AK Variants",1003],["G3 Variants",1007],["Masada Variants",1009],["Sniper Variants",1001],["SCAR Variants",1011],["Assault Rifle",485],["Light Machine Gun",486],["Pistols",489],["Shotguns and Single-shot",574],["Sniper Rifle",487],["Submachine Guns",488],["Black Market Weapons",526],["Explosives",529]],
 	[],
 	"neutral"
 ];
 // neutral Vehicles
 menu_Profiteer4 = [
-	[["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565],["Super Cars",1016],["Sports Cars",1015]],
+	[["Bikes and ATV",608],["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565],["Cop cars",1012],["Nissan 350z",1013]],
 	[],
 	"neutral"
 ];
 // General Store
 menu_Rita_Ensler_EP1 = [
-	[["Backpacks",4300],["Clothes",4200],["CookedMeats",2300],["Drinks",2200],["PackagedFood",2100],["Metals",6100]],
+	[["Backpacks",538],["Currency and gems",1100],["Clothes",628],["Cooked Meats",630],["Drinks",601],["Packaged Food",629]],
 	[["ItemTinBar","TrashJackDaniels",1,1,"buy","Empty Whiskey Bottle","Tin Bar",101]],
 	"neutral"
 ];
 // Weapons neutral
 menu_CIV_EuroMan01_EP1 = [
-	[["Attachments",693],["Pistols",1350],["SDPistols",1300],["OverwatchHK416",1410],["OverwatchVIL",1002],["OverwatchHK417",1420],["OverwatchTAR",1430],["OverwatchMAS",1440],["OverwatchDMR_DZ",1450],["OverwatchScar",1460],["OverwatchG3",1470],["OverwatchACR",1480],["OverwatchACRSD",1490],["SniperRifle",1100],["OverwatchSniper",1415],["AssaultRifle",1400],["SubmachineGuns",1700],["LightMachineGun",1900],["ShotgunsandSingleshot",1200],["Metals",6100]],
+	[["Attachments",693],["HK416 Variants",1004],["HK417 Variants",1002],["AK Variants",1003],["G3 Variants",1007],["Masada Variants",1009],["Sniper Variants",1001],["SCAR Variants",1011],["Assault Rifle",485],["Light Machine Gun",486],["Pistols",489],["Shotguns and Single-shot",574],["Sniper Rifle",487],["Submachine Guns",488],["Black Market Weapons",526],["Explosives",529]],
 	[],
 	"neutral"
 ];
 // Ammunition Neutral
 menu_CIV_EuroMan02_EP1 = [
-	[["PistolAmmo",3300],["SDPistolAmmo",3350],["AssaultRifleAmmo",3700],["LightMachineGunAmmo",3500],["ShotgunsandSingleshotAmmo",3200],["SniperRifleAmmo",3100],["SubmachineGunAmmo",3900],["Metals",6100]],
+	[["Assault Rifle Ammo",621],["Light Machine Gun Ammo",622],["Pistol Ammo",625],["Shotguns and Single-shot Ammo",623],["Sniper Rifle Ammo",624],["Submachine Gun Ammo",626],["Black Market Ammo",527],["Overwatch Ammo",1006]],
 	[],
 	"neutral"
 ];
 // Neutral Building/Parts
 menu_TK_GUE_Soldier_5_EP1 = [
-	[["BuildingSupplies",2500],["ToolbeltItems",4600],["VehicleParts",4500],["Metals",6100]],
+	[["Building Supplies",678],["Currency and gems",1100],["Tools",679],["Vehicle Parts",677]],
 	[],
 	"neutral"
 ];
 
 // Aircraft Dealer
 menu_Worker2 = [
-	[["Helicopter Unarmed",519],["Airplanes",517],["Camels",1014]],
+	[["Airplanes",517],["Currency and gems",1100],["Helicopter Unarmed",519],["Overwatch Camels (Armed)",1014]],
 	[],
 	"neutral"
 ];
 // Vehicles Neutral
 menu_Worker3 = [
-	[["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565],["Super Cars",1016],["Sports Cars",1015]],
+	[["Bikes and ATV",608],["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565],["Cop cars",1012],["Nissan 350z",1013]],
 	[],
 	"neutral"
 ];
 // neutral Building/Parts
 menu_Woodlander1 = [
-	[["BuildingSupplies",2500],["ToolbeltItems",4600],["VehicleParts",4500],["Metals",6100]],
+	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677]],
 	[],
 	"neutral"
 ];
 // neutral Vehicles 2
 menu_UN_CDF_Soldier_Pilot_EP1 = [
-	[["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565],["Super Cars",1016],["Sports Cars",1015]],
+	[["Bikes and ATV",608],["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks Unarmed",535],["Used Cars",585],["Utility Vehicles",565],["Cop cars",1012],["Nissan 350z",1013]],
 	[],
 	"neutral"
 ];
 // General Store 2
 menu_RU_WorkWoman1 = [
-	[["Backpacks",4300],["Clothes",4200],["CookedMeats",2300],["Drinks",2200],["PackagedFood",2100]],
+	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Currency and gems",1100],["Drinks",601],["Packaged Food",629]],
 	[["ItemTinBar","TrashJackDaniels",1,1,"buy","Empty Whiskey Bottle","Tin Bar",101]],
 	"neutral"
 ];
 // Medical Supplies
 menu_Dr_Annie_Baker_EP1 = [
-	[["ChemlitesFlares",2400],["MedicalSupplies",4100],["SmokeGrenades",5100]],
+	[["Chem-lites/Flares",542],["Medical Supplies",541],["Smoke Grenades",543]],
 	[["FoodBioMeat","ItemZombieParts",1,1,"buy","Zombie Parts","Bio Meat",101]],
 	"neutral"
 ];
 // East Wholesaler
 menu_RU_Citizen4 = [
-	[["BlackMarketAmmo",3600],["BlackMarketWeapons",1500],["Explosives",8100],["Wholesale",4400],["Metals",6100]],
+	[["Wholesale",675],["Currency and gems",1100]],
 	[],
 	"neutral"
 ];
 // General Store 3
 menu_RU_WorkWoman5 = [
-	[["Backpacks",4300],["Clothes",4200],["CookedMeats",2300],["Drinks",2200],["PackagedFood",2100]],
+	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Currency and gems",1100],["Drinks",601],["Packaged Food",629]],
 	[["ItemTinBar","TrashJackDaniels",1,1,"buy","Empty Whiskey Bottle","Tin Bar",101]],
 	"neutral"
 ];
 // West Wholesaler
 menu_RU_Citizen1 = [
-	[["BlackMarketAmmo",3600],["BlackMarketWeapons",1500],["Explosives",8100],["Wholesale",4400],["Metals",6100]],
+	[["Wholesale",675],["Currency and gems",1100]],
 	[],
 	"neutral"
 ];
@@ -120,37 +120,37 @@ menu_RU_Villager3 = [
 ];
 // Weapons neutral 2
 menu_TK_CIV_Takistani04_EP1 = [
-	[["Attachments",693],["Pistols",1350],["SDPistols",1300],["OverwatchHK416",1410],["OverwatchVIL",1002],["OverwatchHK417",1420],["OverwatchTAR",1430],["OverwatchMAS",1440],["OverwatchDMR_DZ",1450],["OverwatchScar",1460],["OverwatchG3",1470],["OverwatchACR",1480],["OverwatchACRSD",1490],["SniperRifle",1100],["OverwatchSniper",1415],["AssaultRifle",1400],["SubmachineGuns",1700],["LightMachineGun",1900],["ShotgunsandSingleshot",1200],["Metals",6100]],
+	[["Attachments",693],["HK416 Variants",1004],["HK417 Variants",1002],["AK Variants",1003],["G3 Variants",1007],["Masada Variants",1009],["SCAR Variants",1011],["Sniper Variants",1001],["Assault Rifle",485],["Light Machine Gun",486],["Pistols",489],["Shotguns and Single-shot",574],["Sniper Rifle",487],["Submachine Guns",488],["Black Market Weapons",526],["Explosives",529]],
 	[],
 	"neutral"
 ];
 // Ammunition Neutral 2
 menu_Pilot_EP1 = [
-	[["PistolAmmo",3300],["SDPistolAmmo",3350],["AssaultRifleAmmo",3700],["LightMachineGunAmmo",3500],["ShotgunsandSingleshotAmmo",3200],["SniperRifleAmmo",3100],["SubmachineGunAmmo",3900],["Metals",6100]],
+	[["Assault Rifle Ammo",621],["Light Machine Gun Ammo",622],["Pistol Ammo",625],["Shotguns and Single-shot Ammo",623],["Sniper Rifle Ammo",624],["Submachine Gun Ammo",626],["Black Market Ammo",527],["Overwatch Ammo",1006]],
 	[],
 	"neutral"
 ];
 // Vehicles Neutral 2
 menu_RU_Profiteer4 = [
-	[["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565],["Super Cars",1016],["Sports Cars",1015]],
+	[["Bikes and ATV",608],["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565],["Cop cars",1012],["Nissan 350z",1013]],
 	[],
 	"neutral"
 ];
 // Neutral Building/Parts
 menu_Woodlander3 = [
-	[["BuildingSupplies",2500],["ToolbeltItems",4600],["VehicleParts",4500],["Metals",6100]],
+	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677]],
 	[],
 	"neutral"
 ];
 // Medical Supplies 2
 menu_Dr_Hladik_EP1 = [
-	[["ChemlitesFlares",2400],["MedicalSupplies",4100],["SmokeGrenades",5100],["Metals",6100]],
+	[["Chem-lites/Flares",542],["Medical Supplies",541],["Smoke Grenades",543]],
 	[["FoodBioMeat","ItemZombieParts",1,1,"buy","Zombie Parts","Bio Meat",101]],
 	"neutral"
 ];
 // Medical Supplies 3
 menu_Doctor = [
-	[["ChemlitesFlares",2400],["MedicalSupplies",4100],["SmokeGrenades",5100],["Metals",6100]],
+	[["Chem-lites/Flares",542],["Medical Supplies",541],["Smoke Grenades",543]],
 	[["FoodBioMeat","ItemZombieParts",1,1,"buy","Zombie Parts","Bio Meat",101]],
 	"neutral"
 ];
@@ -162,7 +162,7 @@ menu_HouseWife1 = [
 ];
 // Black market
 menu_GUE_Woodlander2 = [
-	[["Attachments",693],["BlackMarketAmmo",3600],["BlackMarketWeapons",1500],["Explosives",8100],["Wholesale",4400],["Metals",6100]],
+	[["Attachments",693],["Currency and gems",1100],["Overwatch Ammo",1006],["Black Market Ammo",527],["Black Market Weapons",526],["Explosives",529]],
 	[],
 	"neutral"
 ];
@@ -174,43 +174,43 @@ menu_Secretary1 = [
 ];
 // Bor Trader City - (when entering from north entrance)        the 1st trader on the left, clockwise -- Weapons Neutral
 menu_Tanny_PMC = [
-	[["Pistols",1350],["SDPistols",1300],["OverwatchHK416",1410],["OverwatchVIL",1002],["OverwatchHK417",1420],["OverwatchTAR",1430],["OverwatchMAS",1440],["OverwatchDMR_DZ",1450],["OverwatchScar",1460],["OverwatchG3",1470],["OverwatchACR",1480],["OverwatchACRSD",1490],["SniperRifle",1100],["OverwatchSniper",1415],["AssaultRifle",1400],["SubmachineGuns",1700],["LightMachineGun",1900],["ShotgunsandSingleshot",1200]],
+	[["Attachments",693],["HK416 Variants",1004],["HK417 Variants",1002],["AK Variants",1003],["G3 Variants",1007],["Masada Variants",1009],["Sniper Variants",1001],["SCAR Variants",1011],["Assault Rifle",485],["Light Machine Gun",486],["Pistols",489],["Shotguns and Single-shot",574],["Sniper Rifle",487],["Submachine Guns",488],["Black Market Weapons",526],["Explosives",529]],
 	[],
 	"neutral"
 ];
 // Bor Trader City - (when entering from north entrance)        the 2nd trader on the left, clockwise -- Ammunition Neutral
 menu_GUE_Commander = [
-	[["PistolAmmo",3300],["SDPistolAmmo",3350],["AssaultRifleAmmo",3700],["LightMachineGunAmmo",3500],["ShotgunsandSingleshotAmmo",3200],["SniperRifleAmmo",3100],["SubmachineGunAmmo",3900]],
+	[["Assault Rifle Ammo",621],["Light Machine Gun Ammo",622],["Pistol Ammo",625],["Shotguns and Single-shot Ammo",623],["Sniper Rifle Ammo",624],["Submachine Gun Ammo",626],["Black Market Ammo",527],["Overwatch Ammo",1006]],
 	[],
 	"neutral"
 ];
 // Bor Trader City - (when entering from north entrance)        the 3rd trader on the left, clockwise -- neutral Building/Parts
 menu_RU_Citizen2 = [
-	[["BuildingSupplies",2500],["ToolbeltItems",4600],["VehicleParts",4500]],
+	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677]],
 	[],
 	"neutral"
 ];
 // Bor Trader City - (when entering from north entrance)        the 4th trader on the left, clockwise -- auto dealer (car dealer)
 menu_Worker1 = [
-	[["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565],["Super Cars",1016],["Sports Cars",1015]],
+	[["Bikes and ATV",608],["Buses and Vans",563],["Cargo Trucks",564],["Fuel Trucks",492],["Military Unarmed",491],["Trucks",495],["Used Cars",585],["Utility Vehicles",565],["Cop cars",1012],["Nissan 350z",1013]],
 	[],
 	"neutral"
 ];
 // Bor Trader City - (when entering from north entrance)        5th trader on the left, clockwise -- neutral General Store
 menu_Damsel5 = [
-	[["Backpacks",4300],["Clothes",4200],["CookedMeats",2300],["Drinks",2200],["PackagedFood",2100]],
+	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Currency and gems",1100],["Drinks",601],["Packaged Food",629]],
 	[["ItemTinBar","TrashJackDaniels",1,1,"buy","Empty Whiskey Bottle","Tin Bar",101]],
 	"neutral"
 ];
 // Bor Trader City - (when entering from north entrance)        6th trader on the left, clockwise -- Medical Supplies
 menu_ValentinaVictim = [
-	[["ChemlitesFlares",2400],["MedicalSupplies",4100],["SmokeGrenades",5100]],
+	[["Chem-lites/Flares",542],["Medical Supplies",541],["Smoke Grenades",543]],
 	[["FoodBioMeat","ItemZombieParts",1,1,"buy","Zombie Parts","Bio Meat",101]],
 	"neutral"
 ];
 //Gem Trader
 menu_RU_Madam1 = [
-	[["Gems and Hemp",133773]],
+	[["Gems",1100]],
 	[],
 	"neutral"
 ];
