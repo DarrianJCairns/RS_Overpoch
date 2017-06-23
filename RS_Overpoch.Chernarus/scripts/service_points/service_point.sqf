@@ -47,8 +47,7 @@ _cycleTime = 5; // Time in sections for how often the action menu will be refres
 // refuel settings
 _refuel_enable = true; // enable or disable the refuel option
 _refuel_costs = [
-	["Land","free"], // All land vehicles are free to refuel. Free has to be in ""
-	["Air",5000]	//1000 worth is 1 10oz gold for all air vehicles
+	["AllVehicles",1000]
 ];
 _refuel_updateInterval = 1; // update interval (in seconds)
 _refuel_amount = 0.05; // amount of fuel to add with every update (in percent)
@@ -57,8 +56,40 @@ _refuel_amount = 0.05; // amount of fuel to add with every update (in percent)
 _repair_enable = true; // enable or disable the repair option
 _repair_repairTime = 2; // time needed to repair each damaged part (in seconds)
 _repair_costs = [
-	["Air",10000], // 4000 worth is 4 10oz gold.
-	["AllVehicles",7500] // 2000 worth is 2 10oz gold for all other vehicles
+	
+["F35B",500000], // special costs for a single vehicle type
+	["A10",500000], // special costs for a single vehicle type
+	["AV8B2",500000], // special costs for a single vehicle type
+	["AV8B",500000], // special costs for a single vehicle type
+	["su25_cdf",500000], // special costs for a single vehicle type
+	["su25_ins",500000], // special costs for a single vehicle type
+	["su39",500000], // special costs for a single vehicle type
+	["su34",500000], // special costs for a single vehicle type
+	["su25_tk_ep1",500000], // special costs for a single vehicle type
+	["a10_us_ep1",500000], // special costs for a single vehicle type
+	["l39_tk_ep1",500000], // special costs for a single vehicle type
+	
+	
+	["Ah1Z",250000], // special costs for a single vehicle type
+	["KA52",250000], // special costs for a single vehicle type
+	["KA52Black",250000], // special costs for a single vehicle type
+	["Ah64D",250000], // special costs for a single vehicle type
+	["BAF_Apache_AH1_D",250000], // special costs for a single vehicle type
+	["mi24_v",250000], // special costs for a single vehicle type
+	["mi24_b",250000], // special costs for a single vehicle type
+	["mi24_p",250000], // special costs for a single vehicle type
+	["AW159_Lynx_BAF",250000], // special costs for a single vehicle type
+	["MI17_Rockets_RU",250000], // special costs for a single vehicle type
+	["ka60_GL_PMC",250000], // special costs for a single vehicle type
+	["AH6J_EP1",250000], // special costs for a single vehicle type
+	["UH1y",250000], // special costs for a single vehicle type
+	
+	
+	
+	
+	["Air",25000],
+	["tank",250000], // 4000 worth is 4 10oz gold.
+	["AllVehicles",25000] // 2000 worth is 2 10oz gold for all other vehicles
 ];
 
 // rearm settings
@@ -74,23 +105,52 @@ _rearm_ignore = ["Horn","Laser Marker"]; // Array of weapon display names that a
 */
 
 _rearm_costs = [
-	["Flares",2000],
-	["M240",5000],
-	["PKM",5000],
-	["PKT",5000],
-	["ArmoredSUV_PMC_DZE3E",400000], // special costs for a single vehicle type
-	["M113_TK_EP1",400000],
-	["M113_UN_EP1",400000],
-	["BRDM2_INS",300000],
-	["BRDM2_TK_EP1",300000],
-	["LAV25",900000],
-	["BTR90",900000],
-	["GAZ_Vodnik_HMG",600000],
-	["BTR90_HQ",900000],
-	["LAV25_HQ",300000],
-	["BTR60_TK_EP1",300000],
-	["AW159_Lynx_BAF",900000],
-	["GNT_C185T",900000]
+
+["9m117m1 Arkan",150000],
+["9m119m refleks rocket",150000],
+["2a46m cannon",150000],
+["d-81",150000],
+["fim-92F Stinger",150000],
+["m220 tow",75000],
+["kinkurs 9m113",75000],
+["m134",75000],
+["gsh-23l",150000],
+["2a42",150000],
+["2a70 30mm",150000],
+["2a72 100mm",150000],
+["m230",150000],
+["m197",150000],
+["gsh-30-2K",150000],
+["mk82",500000],
+["grenades",20000],
+["m256",100000],
+["azp-23",50000],
+["s-8",325000],
+["yak-B",150000],
+["Ataka-V",500000],
+["FAB-250",500000],
+["vikhr 9a4172",500000],
+["shturm 9k114",500000],
+["falanga 3m11",500000],
+["gua-12",50000],
+["s-5",325000],
+["hydra",250000],
+["aim-9L sidewinder",750000],
+["agm-114 hellfire",750000],
+
+["smokes",15000],
+["Flares",15000],
+["mk19",100000],
+["ZiS-S-53",100000],
+["m3p",50000],
+["DT",50000],
+["kord",50000],
+["zu-23",50000],
+["m2 Machinegun",10000],
+["M240",10000],
+["PKM",10000],
+["PKT",10000]
+
 ];
 
 // ---------------- CONFIG END ----------------
