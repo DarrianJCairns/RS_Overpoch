@@ -3,14 +3,14 @@ serverTraders = ["RU_Madam1","Tanny_PMC","RU_Citizen2","Worker1","ValentinaVicti
 
 // Hero Vendor
 menu_RU_Functionary1 = [
-	[["Attachments",693],["Ammunition",478],["Currency and gems",1100],["Clothes",476],["Helicopter Armed",493],["Military Armed",562],["Trucks Armed",479],["Weapons",477],["LMG Variants",1008],["Explosives",529]],
+	[["Attachments",693],["Ammunition",478],["Clothes",476],["Helicopter Armed",493],["Military Armed",562],["Trucks Armed",479],["Weapons",477],["LMG Variants",1008],["Explosives",529]],
 	[],
 	"hero"
 ];
 
 // Bandit Traders
 menu_GUE_Soldier_MG = [
-	[["Attachments",693],["Ammunition",577],["Currency and gems",1100],["Clothing",575],["Helicopter Armed",512],["Military Armed",569],["Trucks Armed",534],["Weapons",627],["LMG Variants",1008],["Explosives",529]],
+	[["Attachments",693],["Ammunition",577],["Clothing",575],["Helicopter Armed",512],["Military Armed",569],["Trucks Armed",534],["Weapons",627],["LMG Variants",1008],["Explosives",529]],
 	[],
 	"hostile"
 ];
@@ -35,7 +35,7 @@ menu_Profiteer4 = [
 ];
 // General Store
 menu_Rita_Ensler_EP1 = [
-	[["Backpacks",538],["Currency and gems",1100],["Clothes",628],["Cooked Meats",630],["Drinks",601],["Packaged Food",629]],
+	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Drinks",601],["Packaged Food",629]],
 	[["ItemTinBar","TrashJackDaniels",1,1,"buy","Empty Whiskey Bottle","Tin Bar",101]],
 	"neutral"
 ];
@@ -53,14 +53,14 @@ menu_CIV_EuroMan02_EP1 = [
 ];
 // Neutral Building/Parts
 menu_TK_GUE_Soldier_5_EP1 = [
-	[["Building Supplies",678],["Currency and gems",1100],["Tools",679],["Vehicle Parts",677]],
+	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677]],
 	[],
 	"neutral"
 ];
 
 // Aircraft Dealer
 menu_Worker2 = [
-	[["Airplanes",517],["Currency and gems",1100],["Helicopter Unarmed",519],["Overwatch Camels (Armed)",1014]],
+	[["Airplanes",517],["Helicopter Unarmed",519],["Overwatch Camels (Armed)",1014]],
 	[],
 	"neutral"
 ];
@@ -84,7 +84,7 @@ menu_UN_CDF_Soldier_Pilot_EP1 = [
 ];
 // General Store 2
 menu_RU_WorkWoman1 = [
-	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Currency and gems",1100],["Drinks",601],["Packaged Food",629]],
+	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Drinks",601],["Packaged Food",629]],
 	[["ItemTinBar","TrashJackDaniels",1,1,"buy","Empty Whiskey Bottle","Tin Bar",101]],
 	"neutral"
 ];
@@ -96,19 +96,19 @@ menu_Dr_Annie_Baker_EP1 = [
 ];
 // East Wholesaler
 menu_RU_Citizen4 = [
-	[["Wholesale",675],["Currency and gems",1100]],
+	[["Wholesale",675],],
 	[],
 	"neutral"
 ];
 // General Store 3
 menu_RU_WorkWoman5 = [
-	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Currency and gems",1100],["Drinks",601],["Packaged Food",629]],
+	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Drinks",601],["Packaged Food",629]],
 	[["ItemTinBar","TrashJackDaniels",1,1,"buy","Empty Whiskey Bottle","Tin Bar",101]],
 	"neutral"
 ];
 // West Wholesaler
 menu_RU_Citizen1 = [
-	[["Wholesale",675],["Currency and gems",1100]],
+	[["Wholesale",675],],
 	[],
 	"neutral"
 ];
@@ -162,7 +162,7 @@ menu_HouseWife1 = [
 ];
 // Black market
 menu_GUE_Woodlander2 = [
-	[["Attachments",693],["Currency and gems",1100],["Overwatch Ammo",1006],["Black Market Ammo",527],["Black Market Weapons",526],["Explosives",529]],
+	[["Attachments",693],["Overwatch Ammo",1006],["Black Market Ammo",527],["Black Market Weapons",526],["Explosives",529]],
 	[],
 	"neutral"
 ];
@@ -198,7 +198,7 @@ menu_Worker1 = [
 ];
 // Bor Trader City - (when entering from north entrance)        5th trader on the left, clockwise -- neutral General Store
 menu_Damsel5 = [
-	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Currency and gems",1100],["Drinks",601],["Packaged Food",629]],
+	[["Backpacks",538],["Clothes",628],["Cooked Meats",630],["Drinks",601],["Packaged Food",629]],
 	[["ItemTinBar","TrashJackDaniels",1,1,"buy","Empty Whiskey Bottle","Tin Bar",101]],
 	"neutral"
 ];
