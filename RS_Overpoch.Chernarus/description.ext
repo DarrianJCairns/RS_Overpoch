@@ -1,4 +1,3 @@
-#include "scripts\menu\defines.hpp"
 respawn = "BASE";
 respawnDelay = 0;
 respawnDialog = 0;
