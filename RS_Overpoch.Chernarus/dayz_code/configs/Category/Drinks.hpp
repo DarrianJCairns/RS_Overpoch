@@ -1,18 +1,18 @@
 class Category_601 {
 	class ItemWaterbottleUnfilled {
 		type = "trade_items";
-		buy[] = {30,"worth"};
-		sell[] = {10,"worth"};
+		buy[] = {500,"worth"};
+		sell[] = {100,"worth"};
 	};
 	class ItemSodaCoke {
 		type = "trade_items";
-		buy[] = {20,"worth"};
-		sell[] = {10,"worth"};
+		buy[] = {4000,"worth"};
+		sell[] = {2000,"worth"};
 	};
 	class ItemSodaPepsi {
 		type = "trade_items";
-		buy[] = {20,"worth"};
-		sell[] = {10,"worth"};
+		buy[] = {4000,"worth"};
+		sell[] = {1000,"worth"};
 	};
 	class ItemSodaMdew {
 		type = "trade_items";
