@@ -28,10 +28,11 @@ Farm[] =
 	{Loot_MAGAZINE,		1.5,	ItemSledgeHandle},
 	
 	//Groups
+	{Loot_GROUP,		10,		Trash},
 	{Loot_GROUP,		15,		AmmoCivilian},
 	{Loot_GROUP,		3,		AttachmentsGeneric},
 	{Loot_GROUP,		8,		Consumable},
-	{Loot_WEAPON,		8,		ItemMatchbox},
+	{Loot_WEAPON,		3,		ItemMatchbox},
 	{Loot_GROUP,		8,		Generic}
 };
 

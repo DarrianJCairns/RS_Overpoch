@@ -1,6 +1,6 @@
 Residential[] =
 {
-	{Loot_WEAPON,		3,		Mosin_DZ},
+	{Loot_WEAPON,		1,		Mosin_DZ},
 	{Loot_WEAPON,		6,		MeleeBaseBallBat},
 	
 	//Weapon Groups
@@ -20,7 +20,7 @@ Residential[] =
 	{Loot_WEAPON,		1,		Binocular},
 	
 	//Backpacks
-	{Loot_GROUP,		8,		backpacks},
+	{Loot_GROUP,		4,		backpacks},
 	
 	{Loot_MAGAZINE,		1,		PartPlywoodPack},
 	{Loot_PILE,			6,		AmmoCivilian, 1, 2},
@@ -44,6 +44,7 @@ ResidentialSmall[] =
 	{Loot_WEAPON,		1,		Binocular},
 	{Loot_MAGAZINE,		0.5,	ItemComboLock},
 	{Loot_GROUP,		6,		AmmoCivilian},
+	{Loot_GROUP,		10,		Trash},
 	{Loot_GROUP,		10,		Consumable},
 	{Loot_GROUP,		4,		AttachmentsGeneric},
 	{Loot_GROUP,		5,		clothes},

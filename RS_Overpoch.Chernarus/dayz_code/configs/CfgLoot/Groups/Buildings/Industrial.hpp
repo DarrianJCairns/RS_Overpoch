@@ -29,14 +29,15 @@ Industrial[] =
 	{Loot_MAGAZINE,		2,		equip_1inch_metal_pipe},
 	{Loot_MAGAZINE,		2,		equip_2inch_metal_pipe},
 	{Loot_MAGAZINE,		8,		ItemPlank},
-	{Loot_MAGAZINE,		10,		MortarBucket},
-	{Loot_MAGAZINE,		10,		CinderBlocks},
-	{Loot_MAGAZINE,		5,		ItemFuelBarrelEmpty},
-	{Loot_MAGAZINE,		5,		ItemGenerator},
+	{Loot_MAGAZINE,		2,		MortarBucket},
+	{Loot_MAGAZINE,		3,		CinderBlocks},
+	{Loot_MAGAZINE,		3,		ItemFuelBarrelEmpty},
+	{Loot_MAGAZINE,		3,		ItemGenerator},
 	{Loot_MAGAZINE,		1,		fuel_pump_kit},
 	
 	//Other
 	{Loot_GROUP,		15,		Parts},
+	{Loot_PILE,			10,		Trash, 1, 3},
 	{Loot_PILE,			3,		Consumable, 1, 2},
 	{Loot_GROUP,		5,		Generic}
 };
@@ -44,7 +45,7 @@ Industrial[] =
 IndustrialSmall[] =
 {
 	{Loot_WEAPON,		3,		ItemKnife},
-	{Loot_WEAPON,		3,		ItemKeyKit},
+	{Loot_WEAPON,		1,		ItemKeyKit},
 	{Loot_MAGAZINE,		2,		equip_duct_tape},
 	{Loot_MAGAZINE,		6,		equip_nails},
 	{Loot_GROUP,		10,		Trash},
