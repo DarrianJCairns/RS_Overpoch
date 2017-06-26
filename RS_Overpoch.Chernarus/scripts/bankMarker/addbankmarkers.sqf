@@ -32,7 +32,7 @@ _this setMarkerColor "ColorBlack";
 _marker_5 = _this;
 */
 
-_this = createMarker ["aircrafttrader1", [4465.2529, 10335.437]];
+_this = createMarker ["aircrafttrader1", [4502.15, 10778]];
 _this setMarkerText "Aircraft Dealer NWAF";
 _this setMarkerType "Dot";
 _this setMarkerBrush "Solid";

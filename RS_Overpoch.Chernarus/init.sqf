@@ -16,6 +16,7 @@ dayz_POIs = false; //Adds Point of Interest map additions (negatively impacts FP
 dayz_infectiousWaterholes = false; //Randomly adds some bodies, graves and wrecks by ponds (negatively impacts FPS)
 dayz_ForcefullmoonNights = true; // Forces night time to be full moon.
 dayz_randomMaxFuelAmount = 500; //Puts a random amount of fuel in all fuel stations.
+DZE_garagist = ["Profiteer4","Worker3","RU_Profiteer4","Hooker1","Worker2"];
 
 //DayZMod presets
 dayz_presets = "Custom"; //"Custom","Classic","Vanilla","Elite"
@@ -37,8 +38,8 @@ if (dayz_presets == "Custom") then {
 
 //Temp settings
 dayz_DamageMultiplier = 2; //1 - 0 = Disabled, anything over 1 will multiply damage. Damage Multiplier for Zombies.
-dayz_maxGlobalZeds = 100; //Limit the total zeds server wide.
-dayz_temperature_override = false; // Set to true to disable all temperature changes.
+dayz_maxGlobalZeds = 60; //Limit the total zeds server wide.
+dayz_temperature_override = true; // Set to true to disable all temperature changes.
 
 enableRadio false;
 enableSentences false;
@@ -53,7 +54,7 @@ DefaultWeapons = ["ItemRadio"];
 //DefaultBackpackItems = []; // Can include both weapons and magazines i.e. ["PDW_DZ","30Rnd_9x19_UZI"];
 dayz_paraSpawn = false; // Halo spawn
 dayz_poleSafeArea = 80; // Default = 30m, the buildable distance
-DZE_NameTags = 0; // Name displays when looking at player up close  0 = Off, 1= On, 2 = Player choice
+DZE_NameTags = 2; // Name displays when looking at player up close  0 = Off, 1= On, 2 = Player choice
 DZE_DeathMsgDynamicText = true; // Display death messages as dynamicText in the top left with weapon icons.
 DZE_DeathMsgChat = "global"; //"none","global","side","system" Display death messages in selected chat channel.
 DZE_AntiWallLimit = 3;
@@ -70,12 +71,15 @@ DZE_PlotPole = [80,200]; // Radius owned by plot pole [Regular objects,Other plo
 DZE_BuildingLimit = 350; // Max number of built objects allowed in DZE_PlotPole radius
 DZE_SelfTransfuse = true; // Allow players to bloodbag themselves
 DZE_selfTransfuse_Values = [7000,15,10]; // [blood amount given, infection chance %, cooldown in seconds]
-MaxDynamicDebris = 0; // Max number of random road blocks to spawn around the map
-MaxVehicleLimit = 0; // Max number of random vehicles to spawn around the map
+MaxDynamicDebris = 1; // Max number of random road blocks to spawn around the map
+MaxVehicleLimit = 50; // Max number of random vehicles to spawn around the map
 
-MaxHeliCrashes = 0;
-dayz_maxAnimals = 0; // Default: 8
-dayz_maxGlobalAnimals = 0;
+MaxHeliCrashes = 1;
+dayz_maxAnimals = 5; // Default: 8
+dayz_maxGlobalAnimals = 5;
+
+vehsRemoveThermal = ["hmmwv_tow_des_ep1","hmmwv_tow","HMMWV_m998_crows_M2_DES_EP1","ah1z","M1A2_TUSK_MG","M1A2_US_TUSK_MG_EP1","T72_TK_EP1","BMP2_TK_EP1","M2A2_EP1","M2A3_EP1","M6_EP1","BAF_FV510_D","BAF_FV510_W","M1126_ICV_M2_EP1","M1126_ICV_MK19_EP1","M1128_MGS_EP1",
+"AH64D_EP1","BAF_Apache_AH1_D","Mi24_D_TK_EP1","M1A1","AAV","T72_CDF","T72_INS","T72_RU","T72_Gue","T90","BMP2_CDF","BMP2_INS","BMP3","BRDM2_CDF","BRDM2_INS","BRDM2_GUE","BTR90","LAV25","GAZ_Vodnik_HMG","AH1Z","AH64D","Mi24_D","Mi24_P","Mi24_V","Ka52","Ka52Black"];
 
 dayz_groupSystem = true;
 dayz_markGroup = 1; // Players can see their group members on the map 0=never, 1=always, 2=With GPS only;
@@ -177,7 +181,7 @@ initialized = false;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";
 call compile preprocessFileLineNumbers "dayz_code\init\variables.sqf";
 progressLoadingScreen 0.05;
-call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\publicEH.sqf";
+call compile preprocessFileLineNumbers "scripts\garage\publicEH.sqf";
 progressLoadingScreen 0.1;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\medical\setup_functions_med.sqf";
 progressLoadingScreen 0.15;
@@ -191,7 +195,8 @@ call compile preprocessFileLineNumbers "scripts\logistic\init.sqf";
 progressLoadingScreen 0.25;
 //call compile preprocessFileLineNumbers "server_traders.sqf";
 call compile preprocessFileLineNumbers "scripts\traders\server_traders.sqf";
-call compile preprocessFileLineNumbers "\z\addons\dayz_code\system\mission\chernarus11.sqf"; //Add trader city objects locally on every machine early
+call compile preprocessFileLineNumbers "scripts\chernarus11.sqf"; //Add trader city objects locally on every machine early
+//call compile preprocessFileLineNumbers "\z\addons\dayz_code\system\mission\chernarus11.sqf"; //Add trader city objects locally on every machine early
 if (dayz_POIs && (toLower worldName == "chernarus")) then {call compile preprocessFileLineNumbers "\z\addons\dayz_code\system\mission\chernarus\poi\init.sqf";}; //Add POI objects locally on every machine early
 initialized = true;
 

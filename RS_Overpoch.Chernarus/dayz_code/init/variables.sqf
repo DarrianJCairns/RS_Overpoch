@@ -26,6 +26,8 @@ ZSC_maxBankMoney = 125000000; // Default limit for bank objects.
 //Player self-action handles
 dayz_resetSelfActions = {
 	//HOTWIRE
+	s_garage_dialog = -1;
+	s_garage_dialog2 = -1;
 	s_player_hotwirevault = -1;
 	s_player_equip_carry = -1;
 	s_player_fire = -1;

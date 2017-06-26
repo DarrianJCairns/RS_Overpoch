@@ -91,3 +91,5 @@ class RscTitles {
 #include "dayz_code\configs\zscdialogs.hpp"
 #include "dayz_code\configs\zscATMdialogs.hpp"
 #include "dayz_code\scripts\extra_rc.hpp"
+#include "scripts\garage\common.hpp"
+#include "scripts\garage\vehicle_garage.hpp"

@@ -852,6 +852,21 @@ if (_typeOfCursorTarget in DZE_LockableStorage) then {
 		s_player_information = -1;
 	};
 	
+	//Garage
+   	if((_typeOfCursorTarget in DZE_garagist) && (player distance _cursorTarget < 5)) then {
+		if (s_garage_dialog2 < 0) then {
+			s_garage_dialog2 = player addAction ["Vehicle Garage", "scripts\garage\vehicle_dialog.sqf",_cursorTarget, 3, true, true, "", ""];
+		};
+		if (s_garage_dialog < 0) then {
+			s_garage_dialog = player addAction ["Store Vehicle in Garage", "scripts\garage\vehicle_store_list.sqf",_cursorTarget, 3, true, true, "", ""];
+		};
+	} else {
+		player removeAction s_garage_dialog2;
+		s_garage_dialog2 = -1;
+		player removeAction s_garage_dialog;
+		s_garage_dialog = -1;
+	};
+	
 	//Fuel Pump
 	if (_typeOfCursorTarget in dayz_fuelpumparray) then {
 		if (s_player_fuelauto < 0) then {		
@@ -1264,6 +1279,10 @@ if (_typeOfCursorTarget in DZE_LockableStorage) then {
 	s_player_fuelauto = -1;
 	player removeAction s_player_fuelauto2;
 	s_player_fuelauto2 = -1;
+	player removeAction s_garage_dialog2;
+	s_garage_dialog2 = -1;
+	player removeAction s_garage_dialog;
+	s_garage_dialog = -1;
 	player removeAction s_player_manageDoor;
 	s_player_manageDoor = -1;
 	
