@@ -1014,6 +1014,38 @@ if (_typeOfCursorTarget in DZE_LockableStorage) then {
 	*/
 	
 	// Custom below
+	
+	   ///////////////add humanity//
+    private["_playerPos","_nearadd"];
+
+        _playerPos = getPosATL player;
+        _nearadd = count nearestObjects [_playerPos, ["RU_Functionary1"], 3] > 0;
+     
+        if (_nearadd) then {
+            if (s_player_addhumanity < 0) then {
+                s_player_addhumanity = player addaction[("<t color=""#c400f9"">" + ("Add Humanity") +"</t>"),"scripts\humanity\humanity_up.sqf"];
+            };
+        } else {
+            player removeAction s_player_addhumanity;
+            s_player_addhumanity = -1;
+        };
+    ////////////////end of add humanity/////
+
+    ////////////////remove humanity///////////
+    private["_playerPos","_nearremove"];
+
+        _playerPos = getPosATL player;
+        _nearremove = count nearestObjects [_playerPos, ["GUE_Soldier_MG"], 3] > 0;
+     
+        if (_nearremove) then {
+            if (s_player_removehumanity < 0) then {
+                s_player_removehumanity = player addaction[("<t color=""#c400f9"">" + ("Remove Humanity") +"</t>"),"scripts\humanity\humanity_down.sqf"];
+            };
+        } else {
+            player removeAction s_player_removehumanity;
+            s_player_removehumanity = -1;
+        };
+    ////////////////end of remove humanity///
 
 	if (_isMan && {!_isAlive} && {!(_cursorTarget isKindOf "Animal")} && {player distance _cursorTarget < 5}) then {
 		if (s_player_checkWallet < 0) then {
@@ -1302,6 +1334,10 @@ if (_typeOfCursorTarget in DZE_LockableStorage) then {
 	s_bank_dialog2 = -1;
 	player removeAction s_player_checkWallet;
 	s_player_checkWallet = -1;
+    player removeAction s_player_removehumanity;
+    s_player_removehumanity = -1;
+    player removeAction s_player_addhumanity;
+    s_player_addhumanity = -1;
 };
 
 //Dog actions on player self

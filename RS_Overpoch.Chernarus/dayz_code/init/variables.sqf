@@ -122,5 +122,7 @@ dayz_resetSelfActions = {
 	s_givemoney_dialog = -1;
 	s_bank_dialog = -1;
 	s_player_checkWallet = -1;
+    s_player_addhumanity = -1;
+    s_player_removehumanity = -1;
 };
 call dayz_resetSelfActions;
