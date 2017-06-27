@@ -2,7 +2,7 @@
 private ["_cost","_wealth"];
 
 //_cost = 100000; Thats a bit cheap
-_cost = 500000;
+_cost = 100000;
 _wealth = player getVariable[Z_moneyVariable, 0];
 _humanity = player getVariable["humanity", 0];
 
