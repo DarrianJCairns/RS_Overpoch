@@ -153,7 +153,8 @@ RestrictedBuildingZones = [
 	["NWAF", [4467.44,10334.4, 0], 900],
 	["Cherno", [6738.89,2574.77, 0], 800],
 	["Elektro", [10362.5,2120.6, 0], 800],
-	["Berezino", [12025.5,9087.51, 0], 400]
+	["Berezino", [12025.5,9087.51, 0], 400],
+	["Trader City Tulga", [12912.3, 4459.1, 0], 800]
 ];
 
 diag_log 'dayz_preloadFinished reset';

@@ -6,16 +6,17 @@ USE_AntiSteal = true;   // use this to block opening gear if another player is w
 USE_SPEEDLIMIT = false;  // very secret function, nobody is supposed to find out what it does.
         SPEEDLIMIT = 20;                // Only used if USE_SPEEDLIMIT is true.
 USE_SIGNS = false;               // use this to build signs around the SafeZone
-LOG_EnterLeave = false;  // This will log to your .rpt when a player enters or leaves a SafeZone! (only works with infiSTAR.de Admintools / AntiHack)
+LOG_EnterLeave = true;  // This will log to your .rpt when a player enters or leaves a SafeZone! (only works with infiSTAR.de Admintools / AntiHack)
 /* You can use USE_CANBUILD or/and (works together) the custom positions below (USE_POSITIONS) [position or zone,radius] */
 _infiSZ =
 [
         [[6325.6772,7807.7412,0],200,true],
-        [[4063.4226,11664.19,0],200,true],
-        [[11447.472,11364.504,0],200,true],
+        [[4063.4226,11664.19,0],200,true],			//Bash
+        [[11447.472,11364.504,0],200,true],			//Klen
         [[1606.6443,7803.5156,0],200,true],
-        [[12944.227,12766.889,0],200,true],
-		[[3238.29,3382.33,0],220,true]
+        [[12944.227,12766.889,0],200,true],			
+		[[3238.29,3382.33,0],220,true],
+		[[12912.3,4459.1,0],200,true]
 ];
 if (isServer) exitWith
 {

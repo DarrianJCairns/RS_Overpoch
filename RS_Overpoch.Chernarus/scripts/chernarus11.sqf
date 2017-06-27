@@ -121,6 +121,8 @@
 	["HeliHEmpty",[13473.4,5439.65,0.380941],359.963],			//east boat dealer
 	["HeliHEmpty",[1617.71,7773.31,6.10352e-005],0],			//bandit trader
 	["HeliHEmpty",[12072.7,12667.3,0],0],						//NE Airfield
+	["HeliHEmpty",[12912.3,4459.1,0],112.192],					//Tulga
+	
 	
 	
 	["FoldChair",[12060.7,12635.9,-0.0570068],216.273],

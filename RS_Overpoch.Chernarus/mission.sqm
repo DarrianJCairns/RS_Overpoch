@@ -216,7 +216,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=21;
+		items=20;
 		class Item0
 		{
 			position[]={7839,0,8414};
@@ -322,21 +322,13 @@ class Mission
 		};
 		class Item15
 		{
-			position[]={1606,289,7803};
-			name="BanditDen";
-			text="Bandit Camp";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item16
-		{
 			position[]={11447,317,11364};
 			name="Klen";
 			text="Trader City Klen";
 			type="mil_circle";
 			colorName="ColorGreen";
 		};
-		class Item17
+		class Item16
 		{
 			position[]={13441,1,5429};
 			name="BoatDealerEast";
@@ -344,7 +336,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorBlack";
 		};
-		class Item18
+		class Item17
 		{
 			position[]={4064,365,11665};
 			name="TradercityBash";
@@ -352,15 +344,15 @@ class Mission
 			type="mil_circle";
 			colorName="ColorBlack";
 		};
-		class Item19
+		class Item18
 		{
-			position[]={12944,210,12766};
-			name="HeroTrader";
-			text="Hero Camp";
-			type="mil_dot";
-			colorName="ColorBlue";
+			position[]={12912.3,300,4459};
+			name="TradercityTulga";
+			text="Trader City Tulga";
+			type="mil_circle";
+			colorName="ColorBlack";
 		};
-		class Item20
+		class Item19
 		{
 			position[]={3249.1738,161.46706,3430.9661};
 			name="TradercityBor";
@@ -371,7 +363,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=6;
+		items=5;
 #define TRGDEF a=100;b=100;activationBy="WEST";repeating=1;interruptable=1;age="UNKNOWN";class Effects{};
 		class Item0
 		{
@@ -379,8 +371,8 @@ class Mission
 			TRGDEF
 			name="zonestary";
 			expCond="(player distance zonestary) < 100;";
-			expActiv="[""trader city Stary"",true,""enter""] call player_traderCity;";
-			expDesactiv="[""trader city Stary"",true,""leave""] call player_traderCity;";
+			expActiv="[""Trader City Stary"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Trader City Stary"",true,""leave""] call player_traderCity;";
 		};
 		class Item1
 		{
@@ -388,8 +380,8 @@ class Mission
 			TRGDEF
 			name="zonebash";
 			expCond="(player distance zonebash) < 100;";
-			expActiv="[""trader city Bash"",true,""enter""] call player_traderCity;";
-			expDesactiv="[""trader city Bash"",true,""leave""] call player_traderCity;";
+			expActiv="[""Trader City Bash"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Trader City Bash"",true,""leave""] call player_traderCity;";
 		};
 		class Item2
 		{
@@ -397,28 +389,10 @@ class Mission
 			TRGDEF
 			name="zoneklen";
 			expCond="(player distance zoneklen) < 100;";
-			expActiv="[""trader city Klen"",true,""enter""] call player_traderCity;";
-			expDesactiv="[""trader city Klen"",true,""leave""] call player_traderCity;";
+			expActiv="[""Trader City Klen"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Trader City Klen"",true,""leave""] call player_traderCity;";
 		};
 		class Item3
-		{
-			position[]={1606,289,7803};
-			TRGDEF
-			name="zonebandit";
-			expCond="(player distance zonebandit) < 100;";
-			expActiv="[""Bandit Trader"",false,""enter""] call player_traderCity;";
-			expDesactiv="[""Bandit Trader"",false,""leave""] call player_traderCity;";
-		};
-		class Item4
-		{
-			position[]={12944,210,12766};
-			TRGDEF
-			name="zonehero";
-			expCond="(player distance zonehero) < 100;";
-			expActiv="[""Hero Trader"",false,""enter""] call player_traderCity;";
-			expDesactiv="[""Hero Trader"",false,""leave""] call player_traderCity;";
-		};
-		class Item5
 		{
 			position[]={12060,158,12638}; 
 			TRGDEF
@@ -426,6 +400,23 @@ class Mission
 			expCond="(player distance zoneaircraft) < 100;";
 			expActiv="[""Aircraft Trader"",false,""enter""] call player_traderCity;";
 			expDesactiv="[""Aircraft Trader"",false,""leave""] call player_traderCity;";
+		};
+		class Item4
+		{
+			position[]={12903.1,210.19823,4459.67};
+			a=100;
+			b=100;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zonetulga";
+			expCond="(player distance zonetulga) < 175;";
+			expActiv="[""Trader City Tulga"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""Trader City Tulga"",true,""leave""] spawn player_traderCity;";
+			class Effects
+			{
+			};
 		};
 	};
 };
