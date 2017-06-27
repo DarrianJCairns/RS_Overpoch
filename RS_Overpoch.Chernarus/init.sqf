@@ -142,8 +142,8 @@ RestrictedBuildingZones = [
 	["Trader City Stary", [6325.6772,7807.7412, 0], 800],
 	["Trader City Bash", [4063.4226,11664.19, 0], 800],
 	["Trader City Klen", [11447.472,11364.504, 0], 800],
-	["Bandit Camp", [1606.6443,7803.5156, 0], 800],
-	["Hero Camp", [12944.227,12766.889, 0], 800],
+	//["Bandit Camp", [1606.6443,7803.5156, 0], 800],
+	//["Hero Camp", [12944.227,12766.889, 0], 800],
 	["Wholesaler East", [13441.16,5429.3013, 0], 800],
 	["Aircraft Dealer", [4510.7773,10774.518, 0], 800],
 	["Boat Dealer South", [7989.3354,2900.9946, 0], 800],
@@ -151,8 +151,8 @@ RestrictedBuildingZones = [
 	["Wholesaler South", [4063.4226,11664.19, 0], 800],
 	["Gem Trader", [6070.3203, 1941.1635, 0], 800],
 	["NWAF", [4467.44,10334.4, 0], 900],
-	["Cherno", [6738.89,2574.77, 0], 800],
-	["Elektro", [10362.5,2120.6, 0], 800],
+	//["Cherno", [6738.89,2574.77, 0], 800],
+	//["Elektro", [10362.5,2120.6, 0], 800],
 	["Berezino", [12025.5,9087.51, 0], 400],
 	["Trader City Tulga", [12912.3, 4459.1, 0], 800]
 ];
@@ -250,10 +250,6 @@ if (!isDedicated) then {
 	execVM "scripts\zsc\playerHud.sqf";
 	[] execVM "dayz_code\compile\remote_message.sqf";
 	
-	//Debug
-	//execVM "scripts\CustomDebugMonitor\debug.sqf";
-	//execVM "scripts\CustomDebugMonitor\hide_show.sqf";
-	
 	// Serive point
 	[] execVM "scripts\service_points\service_point.sqf";
 	waitUntil {scriptDone progress_monitor};
@@ -266,9 +262,6 @@ if (!isDedicated) then {
 
 // Bank markers
 execVM "scripts\bankMarker\addbankmarkers.sqf";
-
-// Weed farms
-//[] execVM "scripts\WeedFarm\farms.sqf";
 
 // Safe Zones
 [] execVM "scripts\Safezone\SafeZone.sqf";
