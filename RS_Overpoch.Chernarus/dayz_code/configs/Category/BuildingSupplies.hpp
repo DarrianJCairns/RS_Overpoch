@@ -7,17 +7,17 @@ class Category_678 {
 
 	class full_cinder_wall_kit {
 		type = "trade_items";
-		buy[] = {150000,"worth"};
-		sell[] = {40000,"worth"};
+		buy[] = {90000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class half_cinder_wall_kit {
 		type = "trade_items";
-		buy[] = {100000,"worth"};
-		sell[] = {40000,"worth"};
+		buy[] = {50000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class metal_floor_kit {
 		type = "trade_items";
-		buy[] = {150000,"worth"};
+		buy[] = {100000,"worth"};
 		sell[] = {40000,"worth"};
 	};	
 	class cinder_door_kit {

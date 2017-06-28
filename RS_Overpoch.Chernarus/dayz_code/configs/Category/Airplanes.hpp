@@ -98,7 +98,7 @@ class Category_517 {
 	
 	class L39_TK_EP1 {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+        buy[] = {19000000,"worth"};
         sell[] = {3750000,"worth"};
     };
 };
