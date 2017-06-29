@@ -1101,14 +1101,14 @@ if (_typeOfCursorTarget in DZE_LockableStorage) then {
 			_low_high = localize "STR_EPOCH_ACTIONS_HUMANITY_LOW";
 			_humanity_logic = false;
 			if ((_traderMenu select 2) == "friendly") then {
-				_humanity_logic = (_humanity < -35000);
+				_humanity_logic = (_humanity < -10000);
 			};
 			if ((_traderMenu select 2) == "hostile") then {
 				_low_high = localize "STR_EPOCH_ACTIONS_HUMANITY_HIGH";
-				_humanity_logic = (_humanity > -35000);
+				_humanity_logic = (_humanity > -10000);
 			};
 			if ((_traderMenu select 2) == "hero") then {
-				_humanity_logic = (_humanity < 30000);
+				_humanity_logic = (_humanity < 10000);
 			};
 			if (_humanity_logic) then {
 				_cancel = player addAction [format[localize "STR_EPOCH_ACTIONS_HUMANITY",_low_high], "\z\addons\dayz_code\actions\trade_cancel.sqf",["na"], 0, true, false];
