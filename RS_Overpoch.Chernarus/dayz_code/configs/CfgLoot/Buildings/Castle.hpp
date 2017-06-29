@@ -1,7 +1,7 @@
 class Castle : Default
 {
 	zombieClass[] = {"z_new_villager2","z_new_villager3","z_new_villager4"};
-	lootChance = 1;
+	lootChance = 0.2;
 	lootGroup = Castle;
 };
 

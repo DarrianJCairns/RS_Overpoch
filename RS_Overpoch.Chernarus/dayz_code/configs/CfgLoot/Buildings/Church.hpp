@@ -5,7 +5,7 @@ class Church : Default
 	maxRoaming = 3;
 	zombieClass[] = {"z_priest","z_priest","z_priest"};
 	
-	lootChance = 1;
+	lootChance = 0.3;
 	lootGroup = Church;
 };
 

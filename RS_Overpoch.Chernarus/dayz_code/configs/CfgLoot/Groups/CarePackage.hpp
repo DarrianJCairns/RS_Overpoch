@@ -9,25 +9,25 @@ CarePackageType[] =
 CarePackage[] =
 {
 	//Tools
-	{Loot_WEAPON,		5,		ItemFlashlight},
-	{Loot_WEAPON,		2,		ItemCompass},
-	{Loot_WEAPON,		3,		ItemMap},
-	{Loot_WEAPON,		4,		ItemWatch},
-	{Loot_WEAPON,		5,		ItemKnife},
+	{Loot_WEAPON,		35,		ItemFlashlight},
+	{Loot_WEAPON,		35,		ItemCompass},
+	{Loot_WEAPON,		35,		ItemMap},
+	{Loot_WEAPON,		35,		ItemWatch},
+	{Loot_WEAPON,		35,		ItemKnife},
 	
 	//Backpacks
-	{Loot_GROUP,		4,		backpacks},
-	{Loot_GROUP,		3,		militarybackpacks},
+	{Loot_GROUP,		35,		backpacks},
+	{Loot_GROUP,		35,		militarybackpacks},
 	
 	//Containers
-	{Loot_CONTAINER,	5,		DZ_CardboardBox, Consumable, 6, 12},
-	{Loot_CONTAINER,	3,		DZ_MedBox, MedicalHigh, 8, 16},
+	{Loot_CONTAINER,	35,		DZ_CardboardBox, Consumable, 6, 12},
+	{Loot_CONTAINER,	35,		DZ_MedBox, MedicalHigh, 8, 16},
 	
 	//Items
-	{Loot_MAGAZINE,		6,		ItemTent},
-	{Loot_MAGAZINE,		4,		ItemDomeTent},
-	{Loot_PILE,			10,		MedicalLow, 1, 3},
-	{Loot_PILE,			15,		Consumable, 1, 3},
-	{Loot_WEAPON,		3,		ItemMatchbox},
-	{Loot_GROUP,		12,		Generic}
+	{Loot_MAGAZINE,		35,		ItemTent},
+	{Loot_MAGAZINE,		35,		ItemDomeTent},
+	{Loot_PILE,			35,		MedicalLow, 1, 3},
+	{Loot_PILE,			35,		Consumable, 1, 3},
+	{Loot_WEAPON,		35,		ItemMatchbox},
+	{Loot_GROUP,		50,		Generic}
 };

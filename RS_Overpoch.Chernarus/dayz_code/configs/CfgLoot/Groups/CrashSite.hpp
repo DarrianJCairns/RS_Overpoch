@@ -19,7 +19,7 @@ CrashSiteRU[] =
 	{Loot_GROUP,		7,		sniperrifles},
 	{Loot_GROUP,		6,		machineguns},
 	{Loot_GROUP,		3,		Military},
-	{Loot_WEAPON,		0.2,	MAAWS},
+	//{Loot_WEAPON,		0.2,	MAAWS},
 	//Tools
 	{Loot_WEAPON,		1.5,	ItemGPS},
 	{Loot_WEAPON,		1,		Binocular_Vector},
@@ -78,7 +78,7 @@ CrashSiteUS[] =
 	{Loot_GROUP,		7,		sniperrifles},
 	{Loot_GROUP,		6,		machineguns},
 	{Loot_GROUP,		3,		Military},
-	{Loot_WEAPON,		0.2,	MAAWS},
+	//{Loot_WEAPON,		0.2,	MAAWS},
 
 	//Tools
 	{Loot_WEAPON,		1.5,	ItemGPS},
@@ -136,7 +136,7 @@ CrashSiteEU[] =
 	{Loot_GROUP,		7,		sniperrifles},
 	{Loot_GROUP,		6,		machineguns},
 	{Loot_GROUP,		3,		Military},
-	{Loot_WEAPON,		0.2,	MAAWS},
+	//{Loot_WEAPON,		0.2,	MAAWS},
 
 	//Tools
 	{Loot_WEAPON,		1.5,	ItemGPS},
@@ -194,7 +194,7 @@ CrashSiteUN[] =
 	{Loot_GROUP,		7,		sniperrifles},
 	{Loot_GROUP,		6,		machineguns},
 	{Loot_GROUP,		3,		Military},
-	{Loot_WEAPON,		0.2,	MAAWS},
+	//{Loot_WEAPON,		0.2,	MAAWS},
 
 	//Tools
 	{Loot_WEAPON,		1.5,	ItemGPS},

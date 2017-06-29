@@ -32,9 +32,9 @@ Generic[] =
 };
 
 tents[] = {
-	{Loot_MAGAZINE,		2,	ItemDomeTent},
-	{Loot_MAGAZINE,		2,		ItemTent},
-	{Loot_MAGAZINE,		2,	ItemDesertTent} //EPOCH ADDITION
+	{Loot_MAGAZINE,		0.5,	ItemDomeTent},
+	{Loot_MAGAZINE,		1,		ItemTent},
+	{Loot_MAGAZINE,		0.5,	ItemDesertTent} //EPOCH ADDITION
 };
 
 GenericSmall[] =

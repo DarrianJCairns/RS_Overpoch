@@ -4,7 +4,7 @@ class Hospital : Default
 	minRoaming = 2;
 	maxRoaming = 4;
 	zombieClass[] = {"z_doctor","z_doctor","z_doctor"};
-	lootChance = 1;
+	lootChance = 0.4;
 	lootGroup = Hospital;
 };
 
@@ -44,7 +44,7 @@ class RU_WarfareBFieldhHospital : MASH
 {
 	lootPos[] = {{-2.66,2.41,1.25},{3.19,-2.2,1.25}};
 	zedPos[] = {{-2.66,2.41,1.25},{3.19,-2.2,1.25}};
-	lootChance = 1;
+	lootChance = 0.3;
 	minRoaming = 2;
 	maxRoaming = 3;
 };
@@ -52,7 +52,7 @@ class RU_WarfareBFieldhHospital : MASH
 class Land_Barrack2: Hospital
 {
 	maxRoaming = 1;
-	lootChance = 1;
+	lootChance = 0.4;
 	lootPos[] = {
 		{ -1.96484,4.15576,-0.689606 },
 		{ 1.15381,0.3125,-0.691864 }};

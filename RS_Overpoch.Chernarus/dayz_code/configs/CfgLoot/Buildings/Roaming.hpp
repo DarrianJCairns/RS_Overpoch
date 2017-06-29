@@ -75,7 +75,7 @@ class Land_Dam_Conc_20 : HouseRoaming
 {
 	//lootPos[] = {{5.75,1.14,9.1},{3.11,1.22,9.09},{-4.22,9.19,9.11}};
 	zedPos[] = {{3.11,1.22,9.09},{5.75,1.14,9.1},{-4.22,9.19,9.11}};
-	lootChance = 1;
+	lootChance = 0.4;
 };
 
 class Land_Misc_Scaffolding : HouseRoaming

@@ -8,7 +8,7 @@ class Construction : Default
 		"z_worker2",
 		"z_worker3"
 	};
-	lootChance = 1;
+	lootChance = 0.4;
 	lootGroup = Construction;
 };
 

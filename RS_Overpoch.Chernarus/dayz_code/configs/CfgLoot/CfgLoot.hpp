@@ -41,7 +41,6 @@ class CfgLoot
 		#include "Groups\Weapons.hpp"
 		#include "Groups\Clothes.hpp"
 		#include "Groups\Backpacks.hpp"
-		#include "Groups\Wrecks.hpp"
 		
 		// Points of interest
 		#include "Groups\CrashSite.hpp"
@@ -106,7 +105,7 @@ class CfgLoot
 				"z_villager3"
 			};
 			
-			lootChance = 0;
+			lootChance = .5;
 			lootGroup = "";
 			lootPos[] = {};
 		};
