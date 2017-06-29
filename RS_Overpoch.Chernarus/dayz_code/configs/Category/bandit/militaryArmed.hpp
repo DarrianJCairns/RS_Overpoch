@@ -1,32 +1,32 @@
 class Category_569 {
 class LandRover_MG_TK_EP1_DZE {
 		type = "trade_any_vehicle";
-		buy[] = {70000,"worth"};
+		buy[] = {100000,"worth"};
 		sell[] = {35000,"worth"};
 	};	
 	class LandRover_MG_TK_EP1_DZ {
 		type = "trade_any_vehicle";
-		buy[] = {70000,"worth"};
+		buy[] = {100000,"worth"};
 		sell[] = {35000,"worth"};
 	};	
 	class LandRover_Special_CZ_EP1_DZE {
 		type = "trade_any_vehicle";
-		buy[] = {70000,"worth"};
+		buy[] = {100000,"worth"};
 		sell[] = {35000,"worth"};
 	};
 	class LandRover_Special_CZ_EP1_DZ {
 		type = "trade_any_vehicle";
-		buy[] = {70000,"worth"};
+		buy[] = {100000,"worth"};
 		sell[] = {35000,"worth"};
 	};
 	class UAZ_MG_TK_EP1_DZE {
 		type = "trade_any_vehicle";
-		buy[] = {60000,"worth"};
+		buy[] = {100000,"worth"};
 		sell[] = {30000,"worth"};
 	};
 	class UAZ_MG_TK_EP1_DZ {
 		type = "trade_any_vehicle";
-		buy[] = {60000,"worth"};
+		buy[] = {100000,"worth"};
 		sell[] = {30000,"worth"};
 	};
 	class GAZ_Vodnik_DZE {
