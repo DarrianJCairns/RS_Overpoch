@@ -26,6 +26,8 @@ DZE_CLICK_ACTIONS = [
     ["Binocular_Vector","View Distance 2500m","setViewDistance 2500;","true"],
     ["Binocular_Vector","View Distance 3000m","setViewDistance 3000;","true"],
     ["Binocular_Vector","View Distance 4000m","setViewDistance 4000;","true"],
-    ["Binocular_Vector","View Distance 5000m","setViewDistance 5000;","true"]
-	
+    ["Binocular_Vector","View Distance 5000m","setViewDistance 5000;","true"],
+	["Binocular_Vector","View Distance 6000m","setViewDistance 6000;","true"],
+	["Binocular_Vector","View Distance 8000m","setViewDistance 8000;","true"],
+	["Binocular_Vector","View Distance 10000m","setViewDistance 10000;","true"]
 ];
