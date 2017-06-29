@@ -39,7 +39,7 @@ if (dayz_presets == "Custom") then {
 //Temp settings
 dayz_DamageMultiplier = 2; //1 - 0 = Disabled, anything over 1 will multiply damage. Damage Multiplier for Zombies.
 dayz_maxGlobalZeds = 60; //Limit the total zeds server wide.
-dayz_temperature_override = true; // Set to true to disable all temperature changes.
+dayz_temperature_override = false; // Set to true to disable all temperature changes.
 
 enableRadio false;
 enableSentences false;
@@ -62,7 +62,7 @@ DZE_BackpackAntiTheft = true; // Prevent stealing from backpacks in trader zones
 DZE_BuildOnRoads = false; // Allow building on roads
 DZE_PlayerZed = false; // Enable spawning as a player zombie when players die with infected status
 DZE_R3F_WEIGHT = false; // Enable R3F weight. Players carrying too much will be overburdened and forced to move slowly.
-DZE_slowZombies = true; // Force zombies to always walk
+DZE_slowZombies = false; // Force zombies to always walk
 DZE_StaticConstructionCount = 1; // Steps required to build. If greater than 0 this applies to all objects.
 DZE_GodModeBase = true; // Make player built base objects indestructible
 DZE_GodModeBaseExclude = ["CinderWallSmallDoorway_DZ","CinderWallDoor_DZ","CinderWallDoorwayLocked_DZ","CinderWallDoorSmallLocked_DZ","CinderWallDoorLocked_DZ","WoodFloor_DZ","WoodLargeWall_DZ","WoodLargeWallWin_DZ","WoodFloorQuarter_DZ","WoodStairsSans_DZ","Land_DZE_LargeWoodDoorLocked","WoodStairsRails_DZ","WoodLadder_DZ","WoodRamp_DZ","WoodSmallWall_DZ","WoodSmallWallThird_DZ"];
