@@ -73,6 +73,7 @@ DZE_SelfTransfuse = true; // Allow players to bloodbag themselves
 DZE_selfTransfuse_Values = [7000,15,10]; // [blood amount given, infection chance %, cooldown in seconds]
 MaxDynamicDebris = 1; // Max number of random road blocks to spawn around the map
 MaxVehicleLimit = 50; // Max number of random vehicles to spawn around the map
+MaxMineVeins = 5;
 
 MaxHeliCrashes = 1;
 dayz_maxAnimals = 1; // Default: 8
@@ -268,4 +269,10 @@ execVM "scripts\bankMarker\addbankmarkers.sqf";
 
 // Base Safe Zones
 [] execVM "scripts\Safezone\base_SafeArea.sqf";
+
+//LoyaltyReward
+execVM "Scripts\fn_rewardLoyalty.sqf"
+
+//Most Wanted Script
+if (isServer) then {execVM "\z\addons\dayz_server\most_wanted.sqf";};
 
