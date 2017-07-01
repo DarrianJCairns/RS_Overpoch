@@ -76,18 +76,18 @@ class Category_675 {
 	};
 	class CinderBlocks {
 		type = "trade_items";
-		buy[] = {5500,"worth"};
+		buy[] = {4500,"worth"};
 		sell[] = {5000,"worth"};
 	};
 	class MortarBucket {
 		type = "trade_items";
-		buy[] = {4000,"worth"};
+		buy[] = {3000,"worth"};
 		sell[] = {1000,"worth"};
 	};
 	class metal_floor_kit {
 		type = "trade_items";
-		buy[] = {75000,"worth"};
-		sell[] = {12000,"worth"};
+		buy[] = {7000,"worth"};
+		sell[] = {5000,"worth"};
 	};
 	class metal_panel_kit {
 		type = "trade_items";
@@ -96,23 +96,23 @@ class Category_675 {
 	};
 	class half_cinder_wall_kit {
 		type = "trade_items";
-		buy[] = {50000,"worth"};
-		sell[] = {12000,"worth"};
+		buy[] = {9000,"worth"};
+		sell[] = {9000,"worth"};
 	};
 	class full_cinder_wall_kit {
 		type = "trade_items";
-		buy[] = {65000,"worth"};
-		sell[] = {12000,"worth"};
+		buy[] = {9000,"worth"};
+		sell[] = {9000,"worth"};
 	};
 	class cinder_door_kit {
 		type = "trade_items";
-		buy[] = {100000,"worth"};
-		sell[] = {12000,"worth"};
+		buy[] = {13000,"worth"};
+		sell[] = {5000,"worth"};
 	};
 	class cinder_garage_kit {
 		type = "trade_items";
-		buy[] = {100000,"worth"};
-		sell[] = {12000,"worth"};
+		buy[] = {19000,"worth"};
+		sell[] = {9000,"worth"};
 	};
 	class ItemFuelBarrelEmpty {
 		type = "trade_items";

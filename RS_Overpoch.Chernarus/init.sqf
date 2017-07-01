@@ -120,7 +120,7 @@ EpochEvents = [
 //Building restrictions
 LimitPlotPoles = true; // Limit the amount of plot poles a player can own?
 if (LimitPlotPoles) then {
-	PlotPoleLimit = 1; // Amount of plot poles each individual player is allowed to own
+	PlotPoleLimit = 2; // Amount of plot poles each individual player is allowed to own
 };
 
 LimitBuildHeight = true; // Limit the maximum height a player can build at
