@@ -39,6 +39,8 @@ if (dayz_presets == "Custom") then {
 //Temp settings
 dayz_DamageMultiplier = 2; //1 - 0 = Disabled, anything over 1 will multiply damage. Damage Multiplier for Zombies.
 dayz_maxGlobalZeds = 60; //Limit the total zeds server wide.
+dayz_maxLocalZombies = 10; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
+dayz_maxNearByZombies = 10; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
 dayz_temperature_override = false; // Set to true to disable all temperature changes.
 
 enableRadio false;
@@ -254,6 +256,7 @@ if (!isDedicated) then {
 	
 	// Serive point
 	[] execVM "scripts\service_points\service_point.sqf";
+	//[] execVM "scripts\ServiceSAFEZONE\service_point.sqf";
 	waitUntil {scriptDone progress_monitor};
 	cutText ["","BLACK IN", 3];
 	3 fadeSound 1;
