@@ -31,7 +31,7 @@ class Category_486 {
 	};
 	class M240_DZ {
 		type = "trade_weapons";
-		buy[] = {10000,"worth"};
+		buy[] = {25000,"worth"};
 		sell[] = {5000,"worth"};
 	};
 	class M240_CCO_DZ {
