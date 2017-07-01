@@ -271,7 +271,7 @@ execVM "scripts\bankMarker\addbankmarkers.sqf";
 [] execVM "scripts\Safezone\base_SafeArea.sqf";
 
 //LoyaltyReward
-execVM "Scripts\fn_rewardLoyalty.sqf"
+[] execVM "Scripts\fn_rewardLoyalty.sqf";
 
 //Most Wanted Script
 if (isServer) then {execVM "\z\addons\dayz_server\most_wanted.sqf";};
