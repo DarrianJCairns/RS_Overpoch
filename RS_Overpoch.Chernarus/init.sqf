@@ -55,6 +55,7 @@ DefaultWeapons = ["ItemRadio"];
 dayz_paraSpawn = false; // Halo spawn
 dayz_poleSafeArea = 80; // Default = 30m, the buildable distance
 DZE_NameTags = 2; // Name displays when looking at player up close  0 = Off, 1= On, 2 = Player choice
+DZE_UI = "epoch"; //"vanilla","epoch","dark"  UI status icons style. Dark accommodates color blind people.
 DZE_DeathMsgDynamicText = true; // Display death messages as dynamicText in the top left with weapon icons.
 DZE_DeathMsgChat = "global"; //"none","global","side","system" Display death messages in selected chat channel.
 DZE_AntiWallLimit = 3;
