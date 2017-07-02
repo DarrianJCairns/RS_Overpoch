@@ -104,7 +104,7 @@ EpochEvents = [
 //	["any","any","any","any",35,"Supplyitems"],
 	["any","any","any","any",45,"Military"],
 	["any","any","any","any",15,"abandonedvault"],
-	["any","any","any","any",45,"abandonedvault"]
+	["any","any","any","any",45,"abandonedvault"],
 	["any","any","any","any",90,"secret_event"]
 	
 // Removed due to time issues //
