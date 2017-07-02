@@ -97,15 +97,16 @@ spawnShoremode = 1; // Random spawn locations  1 = on shores, 0 = inland
 EpochUseEvents = true; //Enable event scheduler. Define custom scripts in dayz_server\modules to run on a schedule.
 EpochEvents = [
 
-	["any","any","any","any",05,"Treasure"],
-	["any","any","any","any",30,"Treasure"],
-	["any","any","any","any",15,"Construction"],
-	["any","any","any","any",20,"Military"],
-//	["any","any","any","any",35,"Supplyitems"],
-	["any","any","any","any",45,"Military"],
-	["any","any","any","any",15,"abandonedvault"],
+	["any","any","any","any",15,"Treasure"],
+	["any","any","any","any",30,"Construction"],
 	["any","any","any","any",45,"abandonedvault"],
-	["any","any","any","any",90,"secret_event"]
+	["any","any","any","any",60,"Military"],
+	["any","any","any","any",75,"Treasure"],
+//	["any","any","any","any",35,"Supplyitems"],
+	["any","any","any","any",90,"Military"],
+	["any","any","any","any",105,"abandonedvault"],
+	["any","any","any","any",120,"Construction"],
+	["any","any","any","any",135,"secret_event"]
 	
 // Removed due to time issues //
 //	["any","any","any","any",30,"abandonedvault"],
@@ -153,7 +154,7 @@ RestrictedBuildingZones = [
 	["Boat Dealer South", [7989.3354,2900.9946, 0], 800],
 	["Boat Dealer East", [13532.614,6355.9497, 0], 800],
 	["Wholesaler South", [4063.4226,11664.19, 0], 800],
-	["Gem Trader", [6070.3203, 1941.1635, 0], 800],
+	//["Gem Trader", [6070.3203, 1941.1635, 0], 800],
 	["NWAF", [4467.44,10334.4, 0], 900],
 	//["Cherno", [6738.89,2574.77, 0], 800],
 	//["Elektro", [10362.5,2120.6, 0], 800],
