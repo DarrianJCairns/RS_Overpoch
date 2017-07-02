@@ -77,7 +77,7 @@ class Category_675 {
 	class CinderBlocks {
 		type = "trade_items";
 		buy[] = {4500,"worth"};
-		sell[] = {5000,"worth"};
+		sell[] = {4500,"worth"};
 	};
 	class MortarBucket {
 		type = "trade_items";
@@ -97,12 +97,12 @@ class Category_675 {
 	class half_cinder_wall_kit {
 		type = "trade_items";
 		buy[] = {9000,"worth"};
-		sell[] = {9000,"worth"};
+		sell[] = {5000,"worth"};
 	};
 	class full_cinder_wall_kit {
 		type = "trade_items";
 		buy[] = {9000,"worth"};
-		sell[] = {9000,"worth"};
+		sell[] = {5000,"worth"};
 	};
 	class cinder_door_kit {
 		type = "trade_items";
@@ -112,7 +112,7 @@ class Category_675 {
 	class cinder_garage_kit {
 		type = "trade_items";
 		buy[] = {19000,"worth"};
-		sell[] = {9000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class ItemFuelBarrelEmpty {
 		type = "trade_items";
