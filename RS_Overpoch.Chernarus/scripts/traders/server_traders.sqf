@@ -53,7 +53,7 @@ menu_CIV_EuroMan02_EP1 = [
 ];
 // Neutral Building/Parts
 menu_TK_GUE_Soldier_5_EP1 = [
-	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677]],
+	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677],["Gems",1100]],
 	[],
 	"neutral"
 ];

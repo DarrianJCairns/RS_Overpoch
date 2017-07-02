@@ -39,12 +39,12 @@ _this setMarkerBrush "Solid";
 _this setMarkerColor "ColorGreen";
 _marker_6 = _this;
 
-_this = createMarker ["gemtrader1", [6070.3203, 1941.1635]];
-_this setMarkerText "Gem Trader";
-_this setMarkerType "Dot";
-_this setMarkerBrush "Solid";
-_this setMarkerColor "ColorGreen";
-_marker_7 = _this;
+//_this = createMarker ["gemtrader1", [6070.3203, 1941.1635]];
+//_this setMarkerText "Gem Trader";
+//_this setMarkerType "Dot";
+//_this setMarkerBrush "Solid";
+//_this setMarkerColor "ColorGreen";
+//_marker_7 = _this;
 
 _this = createMarker ["junkyard", [2400.9, 14278.9]];
 _this setMarkerText "Junk Yard";
