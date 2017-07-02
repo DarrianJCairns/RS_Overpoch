@@ -72,7 +72,7 @@ menu_Worker3 = [
 ];
 // neutral Building/Parts
 menu_Woodlander1 = [
-	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677]],
+	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677],["Gems",1100]],
 	[],
 	"neutral"
 ];
@@ -137,7 +137,7 @@ menu_RU_Profiteer4 = [
 ];
 // Neutral Building/Parts
 menu_Woodlander3 = [
-	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677]],
+	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677],["Gems",1100]],
 	[],
 	"neutral"
 ];
@@ -185,7 +185,7 @@ menu_GUE_Commander = [
 ];
 // Bor Trader City - (when entering from north entrance)        the 3rd trader on the left, clockwise -- neutral Building/Parts
 menu_RU_Citizen2 = [
-	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677]],
+	[["Building Supplies",678],["Tools",679],["Vehicle Parts",677],["Gems",1100]],
 	[],
 	"neutral"
 ];
