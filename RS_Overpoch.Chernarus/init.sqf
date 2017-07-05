@@ -208,7 +208,7 @@ initialized = true;
 
 // Terrain and view distance
 setTerrainGrid 50;
-setViewDistance 1000;
+setViewDistance 4000;
 
 
 if (dayz_REsec == 1) then {call compile preprocessFileLineNumbers "\z\addons\dayz_code\system\REsec.sqf";};
