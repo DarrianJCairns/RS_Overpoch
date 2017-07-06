@@ -70,10 +70,10 @@ DZE_StaticConstructionCount = 1; // Steps required to build. If greater than 0 t
 DZE_GodModeBase = true; // Make player built base objects indestructible
 DZE_GodModeBaseExclude = ["CinderWallSmallDoorway_DZ","CinderWallDoor_DZ","CinderWallDoorwayLocked_DZ","CinderWallDoorSmallLocked_DZ","CinderWallDoorLocked_DZ","WoodFloor_DZ","WoodLargeWall_DZ","WoodLargeWallWin_DZ","WoodFloorQuarter_DZ","WoodStairsSans_DZ","Land_DZE_LargeWoodDoorLocked","WoodStairsRails_DZ","WoodLadder_DZ","WoodRamp_DZ","WoodSmallWall_DZ","WoodSmallWallThird_DZ"];
 DZE_requireplot = 1; // Require a plot pole to build  0 = Off, 1 = On
-DZE_PlotPole = [80,200]; // Radius owned by plot pole [Regular objects,Other plotpoles]. Difference between them is the minimum buffer between bases.
+DZE_PlotPole = [80,400]; // Radius owned by plot pole [Regular objects,Other plotpoles]. Difference between them is the minimum buffer between bases.
 DZE_BuildingLimit = 350; // Max number of built objects allowed in DZE_PlotPole radius
 DZE_SelfTransfuse = true; // Allow players to bloodbag themselves
-DZE_selfTransfuse_Values = [7000,15,10]; // [blood amount given, infection chance %, cooldown in seconds]
+DZE_selfTransfuse_Values = [6000,15,10]; // [blood amount given, infection chance %, cooldown in seconds]
 MaxDynamicDebris = 1; // Max number of random road blocks to spawn around the map
 MaxVehicleLimit = 50; // Max number of random vehicles to spawn around the map
 MaxMineVeins = 5;
