@@ -86,7 +86,7 @@ dayz_maxGlobalAnimals = 2;
 // Plot Management and Plot for Life
 DZE_permanentPlot = true; // Plot ownership saves after death. Enables Plot for Life by @RimBlock and Plot Management by @DevZupa.
 DZE_plotManagementMustBeClose = true; //Players must be within 10m of pole to be added as a plot friend.
-DZE_MaxPlotFriends = 10; //Max friends allowed on a plot. There is no character limit in the inventory field of the database, but lower values limit the max global setVariable size to improve performance.
+//DZE_MaxPlotFriends = 10; //Max friends allowed on a plot. There is no character limit in the inventory field of the database, but lower values limit the max global setVariable size to improve performance.
 DZE_isRemovable = []; //Items that can be removed with a crowbar with no ownership or access required. To forbid base take overs remove plot pole from this list and add it to DZE_restrictRemoval. It is not necessary to add wrecks or items that inherit from 'BuiltItems' to this list.
 DZE_restrictRemoval = ["Plastic_Pole_EP1_DZ","plot_pole_kit","Fence_corrugated_DZ","metal_floor_kit","M240Nest_DZ","ParkBench_DZ","FireBarrel_DZ","Scaffolding_DZ","CanvasHut_DZ","LightPole_DZ","DeerStand_DZ","MetalGate_DZ","StickFence_DZ"]; //Items that can be removed with a crowbar only with proper ownership or access. It is not necessary to add doors, storage or items that inherit from 'ModularItems' to this list. Items that inherit from 'BuiltItems' can be added to this list if desired.
 
@@ -106,7 +106,7 @@ DZE_doorManagement = true; // Enable Door Management by @DevZupa.
 DZE_doorManagementMustBeClose = true; //Players must be within 10m of door to be added as a door friend.
 DZE_doorManagementAdmins = [76561198041381065]; //Array of admin PlayerUIDs. UIDs in this list are able to access every door's management menu and open it.
 DZE_doorManagementAllowManualCode = true; //Allow unlocking doors by manually entering the combination. Setting false requires the use of eye scan for all doors.
-DZE_doorManagementMaxFriends = 10; //Max friends allowed on a door. There is no character limit in the inventory field of the database, but lower values limit the max global setVariable size to improve performance.
+//DZE_doorManagementMaxFriends = 10; //Max friends allowed on a door. There is no character limit in the inventory field of the database, but lower values limit the max global setVariable size to improve performance.
 DZE_doorManagementHarderPenalty = true; //Enforce an exponential wait on attempts between unlocking a door from a failed code.
 
 vehsRemoveThermal = ["hmmwv_tow_des_ep1","hmmwv_tow","HMMWV_m998_crows_M2_DES_EP1","ah1z","M1A2_TUSK_MG","M1A2_US_TUSK_MG_EP1","T72_TK_EP1","BMP2_TK_EP1","M2A2_EP1","M2A3_EP1","M6_EP1","BAF_FV510_D","BAF_FV510_W","M1126_ICV_M2_EP1","M1126_ICV_MK19_EP1","M1128_MGS_EP1",
