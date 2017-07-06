@@ -55,6 +55,8 @@ DefaultWeapons = ["ItemRadio"];
 //DefaultBackpack = "DZ_Patrol_Pack_EP1";
 //DefaultBackpackItems = []; // Can include both weapons and magazines i.e. ["PDW_DZ","30Rnd_9x19_UZI"];
 dayz_paraSpawn = false; // Halo spawn
+// HALO Jump
+DZE_HaloAltitudeMeter = true; // Display altitude and speed on screen while in halo jump.
 dayz_poleSafeArea = 80; // Default = 30m, the buildable distance
 DZE_NameTags = 2; // Name displays when looking at player up close  0 = Off, 1= On, 2 = Player choice
 DZE_ForceNameTagsInTrader = true; // Force name display when looking at player up close in traders. Overrides player choice.
