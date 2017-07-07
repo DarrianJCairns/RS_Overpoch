@@ -41,7 +41,7 @@ dayz_DamageMultiplier = 2; //1 - 0 = Disabled, anything over 1 will multiply dam
 dayz_maxGlobalZeds = 20; //Limit the total zeds server wide.
 dayz_maxLocalZombies = 5; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
 dayz_maxNearByZombies = 5; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
-dayz_temperature_override = false; // Set to true to disable all temperature changes.
+dayz_temperature_override = true; // Set to true to disable all temperature changes.
 
 enableRadio false;
 enableSentences false;
@@ -55,7 +55,6 @@ DefaultWeapons = ["ItemRadio"];
 //DefaultBackpack = "DZ_Patrol_Pack_EP1";
 //DefaultBackpackItems = []; // Can include both weapons and magazines i.e. ["PDW_DZ","30Rnd_9x19_UZI"];
 dayz_paraSpawn = false; // Halo spawn
-// HALO Jump
 DZE_HaloAltitudeMeter = true; // Display altitude and speed on screen while in halo jump.
 dayz_poleSafeArea = 80; // Default = 30m, the buildable distance
 DZE_NameTags = 2; // Name displays when looking at player up close  0 = Off, 1= On, 2 = Player choice
@@ -82,33 +81,26 @@ MaxVehicleLimit = 50; // Max number of random vehicles to spawn around the map
 MaxMineVeins = 5;
 
 MaxHeliCrashes = 1;
-dayz_maxAnimals = 1; // Default: 8
+dayz_maxAnimals = 2; // Default: 8
 dayz_maxGlobalAnimals = 2;
 
 // Plot Management and Plot for Life
 DZE_permanentPlot = true; // Plot ownership saves after death. Enables Plot for Life by @RimBlock and Plot Management by @DevZupa.
 DZE_plotManagementMustBeClose = true; //Players must be within 10m of pole to be added as a plot friend.
-//DZE_MaxPlotFriends = 10; //Max friends allowed on a plot. There is no character limit in the inventory field of the database, but lower values limit the max global setVariable size to improve performance.
 DZE_isRemovable = []; //Items that can be removed with a crowbar with no ownership or access required. To forbid base take overs remove plot pole from this list and add it to DZE_restrictRemoval. It is not necessary to add wrecks or items that inherit from 'BuiltItems' to this list.
 DZE_restrictRemoval = ["Plastic_Pole_EP1_DZ","plot_pole_kit","Fence_corrugated_DZ","metal_floor_kit","M240Nest_DZ","ParkBench_DZ","FireBarrel_DZ","Scaffolding_DZ","CanvasHut_DZ","LightPole_DZ","DeerStand_DZ","MetalGate_DZ","StickFence_DZ"]; //Items that can be removed with a crowbar only with proper ownership or access. It is not necessary to add doors, storage or items that inherit from 'ModularItems' to this list. Items that inherit from 'BuiltItems' can be added to this list if desired.
 
 // Snap Build and Build Vectors
-DZE_PlotManagementAdmins = [76561198041381065]; //Array of admin PlayerUIDs. UIDs in this list are able to access every pole's management menu and delete or build any buildable with a pole nearby.
+DZE_PlotManagementAdmins = ["76561198041381065"]; //Array of admin PlayerUIDs. UIDs in this list are able to access every pole's management menu and delete or build any buildable with a pole nearby.
 DZE_modularBuild = true; // Enable Snap Building by @raymix and Build Vectors by @strikerforce.
 DZE_snapExtraRange = 0; // Increase the default range from which objects can snap by this many meters.
 DZE_noRotate = ["plastic_pole_ep1_dz","ItemVault"]; // List of objects (magazine classnames) that cannot be rotated. Example: ["ItemVault","ItemTent","ItemDomeTent","ItemDesertTent"];
-DZE_vectorDegrees = [0.01, 0.1, 1, 5, 15, 45, 90]; // Degree positions players are able to rotate buildables with using the build vectors action menu.
-DZE_curDegree = 45; // Starting rotation angle. Prefer any value in the array above.
-DZE_dirWithDegrees = true; // When rotating objects with Q&E, use the custom degrees.
-DZE_buildMaxMoveDistance = 10; // Max distance player can walk from start position when building. Anything >= the differnce between DZE_PlotPole values is not recommended (allows walking into other plots).
-DZE_buildMaxHeightDistance = 10; // Max distance player can raise or lower object from start position when building.
 
 // Door Management
 DZE_doorManagement = true; // Enable Door Management by @DevZupa. 
 DZE_doorManagementMustBeClose = true; //Players must be within 10m of door to be added as a door friend.
-DZE_doorManagementAdmins = [76561198041381065]; //Array of admin PlayerUIDs. UIDs in this list are able to access every door's management menu and open it.
+DZE_doorManagementAdmins = ["76561198041381065"]; //Array of admin PlayerUIDs. UIDs in this list are able to access every door's management menu and open it.
 DZE_doorManagementAllowManualCode = true; //Allow unlocking doors by manually entering the combination. Setting false requires the use of eye scan for all doors.
-//DZE_doorManagementMaxFriends = 10; //Max friends allowed on a door. There is no character limit in the inventory field of the database, but lower values limit the max global setVariable size to improve performance.
 DZE_doorManagementHarderPenalty = true; //Enforce an exponential wait on attempts between unlocking a door from a failed code.
 
 vehsRemoveThermal = ["hmmwv_tow_des_ep1","hmmwv_tow","HMMWV_m998_crows_M2_DES_EP1","ah1z","M1A2_TUSK_MG","M1A2_US_TUSK_MG_EP1","T72_TK_EP1","BMP2_TK_EP1","M2A2_EP1","M2A3_EP1","M6_EP1","BAF_FV510_D","BAF_FV510_W","M1126_ICV_M2_EP1","M1126_ICV_MK19_EP1","M1128_MGS_EP1",
@@ -132,21 +124,11 @@ EpochEvents = [
 	["any","any","any","any",45,"abandonedvault"],
 	["any","any","any","any",60,"Military"],
 	["any","any","any","any",75,"Treasure"],
-//	["any","any","any","any",35,"Supplyitems"],
 	["any","any","any","any",90,"Military"],
 	["any","any","any","any",105,"abandonedvault"],
 	["any","any","any","any",120,"Construction"],
 	["any","any","any","any",135,"secret_event"]
-	
-// Removed due to time issues //
-//	["any","any","any","any",30,"abandonedvault"],
-//	["any","any","any","any",60,"abandonedvault"],
-//	["any","any","any","any",30,"Construction"],
-//	["any","any","any","any",10,"Military"],
-//	["any","any","any","any",90,"secret_event"],
-//	["any","any","any","any",10,"Supplyitems"],
-//	["any","any","any","any",150,"Military"],
-//	["any","any","any","any",150,"Treasure"]
+
 ];
 
 // EPOCH CONFIG VARIABLES END //
@@ -177,17 +159,12 @@ RestrictedBuildingZones = [
 	["Trader City Stary", [6325.6772,7807.7412, 0], 800],
 	["Trader City Bash", [4063.4226,11664.19, 0], 800],
 	["Trader City Klen", [11447.472,11364.504, 0], 800],
-	//["Bandit Camp", [1606.6443,7803.5156, 0], 800],
-	//["Hero Camp", [12944.227,12766.889, 0], 800],
 	["Wholesaler East", [13441.16,5429.3013, 0], 800],
 	["Aircraft Dealer", [4510.7773,10774.518, 0], 800],
 	["Boat Dealer South", [7989.3354,2900.9946, 0], 800],
 	["Boat Dealer East", [13532.614,6355.9497, 0], 800],
 	["Wholesaler South", [4063.4226,11664.19, 0], 800],
-	//["Gem Trader", [6070.3203, 1941.1635, 0], 800],
 	["NWAF", [4467.44,10334.4, 0], 900],
-	//["Cherno", [6738.89,2574.77, 0], 800],
-	//["Elektro", [10362.5,2120.6, 0], 800],
 	["Berezino", [12025.5,9087.51, 0], 400],
 	["Trader City Tulga", [12912.3, 4459.1, 0], 800]
 ];
