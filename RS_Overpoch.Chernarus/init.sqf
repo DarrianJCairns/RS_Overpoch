@@ -119,7 +119,7 @@ EpochEvents = [
 	["any","any","any","any",75,"Treasure"],
 	["any","any","any","any",90,"Military"],
 	["any","any","any","any",105,"abandonedvault"],
-	["any","any","any","any",120,"Construction"],
+	["any","any","any","any",120,"Construction"]
 //	["any","any","any","any",135,"secret_event"]
 
 ];
@@ -257,7 +257,7 @@ if (!isDedicated) then {
 	
 	// Serive point
 	[] execVM "scripts\service_points\service_point.sqf";
-	//[] execVM "scripts\ServiceSAFEZONE\service_point.sqf";
+	//[] execVM "scripts\service_points\service_point2.sqf";
 	waitUntil {scriptDone progress_monitor};
 	cutText ["","BLACK IN", 3];
 	3 fadeSound 1;
