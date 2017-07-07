@@ -6,8 +6,8 @@
 */
 
 class_selection = true; //Enable class selection dialog
-#define START_ITEMS "ItemBandage",3,"ItemPainkiller","ItemBloodbag","ItemMorphine","ItemSodaCoke","FoodPistachio","PartGeneric","17Rnd_9x19_glock17",3
-#define START_WEAPONS "Binocular_Vector","ItemMap","ItemGPS","ItemRadio","ItemToolbox","ItemCompass","G17_DZ"
+//#define START_ITEMS "ItemBandage",3,"ItemPainkiller","ItemBloodbag","ItemMorphine","ItemSodaCoke","FoodPistachio","PartGeneric","17Rnd_9x19_glock17",3
+//#define START_WEAPONS "Binocular_Vector","ItemMap","ItemGPS","ItemRadio","ItemToolbox","ItemCompass","G17_DZ"
 
 #define VIP_TOOLS "ItemToolbox","ItemMap","ItemRadio","ItemGPS","ItemCrowbar","Binocular_Vector","ItemCompass","ItemHatchet","ItemKnife","Itemetool","ItemFishingPole","NVGoggles_DZE"
 #define T3_TOOLS "ItemToolbox","ItemMap","ItemRadio","Binocular_Vector","ItemCompass","ItemHatchet","ItemKnife","Itemetool","ItemFishingPole","NVGoggles_DZE"
@@ -15,16 +15,6 @@ class_selection = true; //Enable class selection dialog
 #define T1_TOOLS "ItemToolbox","ItemMap","ItemRadio","Binocular_Vector","ItemCompass"
 
 #define MED_ITEMS 		"ItemAntibiotic","ItemBloodBag","ItemMorphine","ItemPainkiller","ItemBandage",3,"ItemWaterbottle","FoodPistachio"
-#define NEUTRAL         "ItemMap","ItemFlashlight","ItemToolbox","ItemRadio"
-#define STARTER         "ItemMap","ItemFlashlight","ItemToolbox","ItemHatchet","Binocular_Vector","ItemCompass","ItemRadio"
-#define BASIC           "ItemMap","ItemFlashlight","ItemToolbox","ItemHatchet","Binocular_Vector","ItemCompass","ItemKnife","ItemMatchbox","ItemFishingPole","ItemRadio"
-#define MODERATE        "ItemMap","ItemToolbox","ItemHatchet","Binocular_Vector","ItemCompass","ItemKnife","ItemMatchbox","ItemEtool","ItemCrowbar","ItemGPS","ItemRadio"
-#define VETERAN         "ItemMap","ItemToolbox","Binocular_Vector","ItemCompass","ItemKnife","ItemMatchbox","ItemEtool","ItemCrowbar","ItemGPS","ItemRadio"
-#define NEUTRAL_MED     "ItemMorphine","ItemPainkiller","ItemBandage",2,"ItemWaterbottle","FoodPistachio"
-#define STARTER_MED     "ItemBloodBag","ItemMorphine","ItemPainkiller","ItemBandage",2,"ItemWaterbottle","FoodPistachio"
-#define VETERAN_MED     "ItemAntibiotic","ItemBloodBag","ItemMorphine","ItemPainkiller","ItemBandage",3,"ItemSodaMdew","FoodMRE"
-#define VETERAN_PARTS   "PartEngine","PartVRotor","PartGeneric","PartGeneric"
-#define MOZZIE_ITEMS    "PartEngine","PartVRotor","PartFueltank"
 #define DEPLOY_ITEMS    "PartEngine","PartVRotor","PartFueltank","PartGeneric"
 
 class_public = [ // These are visible to anyone on the server
@@ -87,28 +77,6 @@ class_public = [ // These are visible to anyone on the server
 ["Bandit King","Sniper1_DZ","BanditW2_DZ",["PartGeneric","10Rnd_127x99_m107",3,"30Rnd_9x19_UZI_SD",3,MED_ITEMS],["m107_DZ","UZI_SD_EP1",VIP_TOOLS],"DZ_Backpack_EP1",[DEPLOY_ITEMS],[],0,-2000000,0,""]
 
 ];
-// OLD SPAWNS REMOVE "//" TO ACTIVATE AGAIN
-//	["Hero 205k","Sniper1_DZ","SurvivorWdesert_DZ",[START_ITEMS,"10Rnd_127x99_m107",3],[START_WEAPONS,"BAF_AS50_scoped"],"DZ_LargeGunBag_EP1",["PartGeneric"],[],0,205000,0,"MeleeHatchet"],
-//	["Hero 150k","Rocket_DZ","SurvivorWdesert_DZ",[START_ITEMS,"10Rnd_127x99_m107",3],[START_WEAPONS,"m107_DZ"],"DZ_LargeGunBag_EP1",["PartGeneric"],[],0,150000,0,"MeleeHatchet"],
-//	["Hero 100k","Soldier1_DZ","SurvivorWdesert_DZ",[START_ITEMS,"20Rnd_762x51_DMR",3],[START_WEAPONS,"DMR_DZ"],"DZ_Backpack_EP1",["PartGeneric"],[],0,100000,0,"MeleeHatchet"],
-//	["Hero 70k","INS_Soldier_CO_DZ","SurvivorWcombat_DZ",[START_ITEMS,"20Rnd_762x51_DMR",3],[START_WEAPONS,"RH_m14acog"],"DZ_Backpack_EP1",["PartGeneric"],[],0,70000,0,"MeleeHatchet"],
-//	["Hero 45k","Camo1_DZ","SurvivorW2_DZ",[START_ITEMS,"20rnd_762x51_B_SCAR",3],[START_WEAPONS,"SCAR_H_STD_EGLM_Spect"],"DZ_GunBag_EP1",["PartGeneric"],[],0,45000,0,"MeleeHatchet"],
-//	["Hero 15k","BAF_Soldier_FAC_DDPM","SurvivorW2_DZ",[START_ITEMS,"30Rnd_9x19_MP5SD"],[START_WEAPONS,"MP5SD"],"DZ_British_ACU",["PartGeneric"],[],0,15000,0,""],
-//	["Hero 5k","Soldier_Sniper_PMC_DZ","SurvivorW2_DZ",[START_ITEMS,"10Rnd_303British",2],[START_WEAPONS,"LeeEnfield_DZ"],"DZ_British_ACU",["PartGeneric"],[],0,5000,0,""],
-//	
-//	["Neutral","Survivor2_DZ","SurvivorW2_DZ",[START_ITEMS,"30Rnd_9x21_Mag",1],[START_WEAPONS,"SMG_02_F"],"DZ_British_ACU",[],[],0,0,0],
-//	
-//	["Bandit 5k","Bandit1_DZ","BanditW1_DZ",[START_ITEMS,"10Rnd_303British",2],[START_WEAPONS,"LeeEnfield_DZ"],"DZ_British_ACU",["PartGeneric"],[],0,-5000,0,""],
-//	["Bandit 15k","Soldier_Bodyguard_AA12_PMC_DZ","INS_Soldier_AR_DZ",[START_ITEMS,"30Rnd_9x19_MP5SD"],[START_WEAPONS,"MP5SD"],"DZ_British_ACU",["PartGeneric"],[],0,-15000,0,""],
-//	["Bandit 45k","GUE_Commander_DZ","SurvivorW3_DZ",[START_ITEMS,"20rnd_762x51_B_SCAR",3],[START_WEAPONS,"SCAR_H_STD_EGLM_Spect"],"DZ_British_ACU",["PartGeneric"],[],0,-45000,0,"MeleeHatchet"],
-//	["Bandit 70k","Camo1_DZ","SurvivorWcombat_DZ",[START_ITEMS,"20Rnd_762x51_DMR",3],[START_WEAPONS,"RH_m14acog"],"DZ_Backpack_EP1",["PartGeneric"],[],0,-70000,0,"MeleeHatchet"],
-//	["Bandit 100k","Soldier1_DZ","BanditW2_DZ",[START_ITEMS,"20Rnd_762x51_DMR",3],[START_WEAPONS,"DMR_DZ"],"DZ_GunBag_EP1",["PartGeneric"],[],0,-100000,0,"MeleeHatchet"],
-//	
-//	//["TEST SPAWN","Graves_Light_DZ","SurvivorWcombat_DZ",["PartGeneric","20Rnd_762x51_FNFAL",3,"15Rnd_9x19_M9",3,MED_ITEMS],["FNFAL_Holo_DZ","M9_DZ",T2_TOOLS],"DZ_British_ACU",["PartGeneric"],[],0,-100000,0,""],
-//	
-//	["Bandit 150k","Rocket_DZ","SurvivorWurban_DZ",[START_ITEMS,"10Rnd_127x99_m107",3],[START_WEAPONS,"m107_DZ"],"DZ_LargeGunBag_EP1",["PartGeneric"],[],0,-150000,0,"MeleeHatchet"],
-//	["Bandit 205k","Sniper1_DZ","SurvivorWurban_DZ",[START_ITEMS,"10Rnd_127x99_m107",3],[START_WEAPONS,"BAF_AS50_scoped"],"DZ_LargeGunBag_EP1",["PartGeneric"],[],0,-205000,0,"MeleeHatchet"]
-//];
 
 halo_selection = true; // Enable HALO selection dialog
 halo_force = false; // Skip HALO selection dialog and force HALO spawn.

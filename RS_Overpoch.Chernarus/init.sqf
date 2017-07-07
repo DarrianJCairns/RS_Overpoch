@@ -24,7 +24,7 @@ dayz_presets = "Custom"; //"Custom","Classic","Vanilla","Elite"
 //Only need to edit if you are running a custom server.
 if (dayz_presets == "Custom") then {
 	dayz_enableGhosting = false; //Enable disable the ghosting system.
-	dayz_ghostTimer = 60; //Sets how long in seconds a player must be disconnected before being able to login again.
+	dayz_ghostTimer = 5; //Sets how long in seconds a player must be disconnected before being able to login again.
 	dayz_spawnselection = 0; //(Chernarus only) Turn on spawn selection 0 = random only spawns, 1 = spawn choice based on limits
 	dayz_spawncarepkgs_clutterCutter = 0; //0 = loot hidden in grass, 1 = loot lifted, 2 = no grass
 	dayz_spawnCrashSite_clutterCutter = 0;	// heli crash options 0 = loot hidden in grass, 1 = loot lifted, 2 = no grass
@@ -58,7 +58,6 @@ dayz_paraSpawn = false; // Halo spawn
 DZE_HaloAltitudeMeter = true; // Display altitude and speed on screen while in halo jump.
 dayz_poleSafeArea = 80; // Default = 30m, the buildable distance
 DZE_NameTags = 2; // Name displays when looking at player up close  0 = Off, 1= On, 2 = Player choice
-DZE_ForceNameTagsInTrader = true; // Force name display when looking at player up close in traders. Overrides player choice.
 DZE_UI = "epoch"; //"vanilla","epoch","dark"  UI status icons style. Dark accommodates color blind people.
 DZE_DeathMsgDynamicText = true; // Display death messages as dynamicText in the top left with weapon icons.
 DZE_DeathMsgChat = "global"; //"none","global","side","system" Display death messages in selected chat channel.
@@ -121,7 +120,7 @@ EpochEvents = [
 	["any","any","any","any",90,"Military"],
 	["any","any","any","any",105,"abandonedvault"],
 	["any","any","any","any",120,"Construction"],
-	["any","any","any","any",135,"secret_event"]
+//	["any","any","any","any",135,"secret_event"]
 
 ];
 
@@ -280,5 +279,5 @@ execVM "scripts\bankMarker\addbankmarkers.sqf";
 [] execVM "Scripts\fn_rewardLoyalty.sqf";
 
 //Most Wanted Script
-if (isServer) then {execVM "\z\addons\dayz_server\most_wanted.sqf";};
+//if (isServer) then {execVM "\z\addons\dayz_server\most_wanted.sqf";};
 
