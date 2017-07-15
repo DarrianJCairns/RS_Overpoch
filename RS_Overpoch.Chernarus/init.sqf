@@ -97,7 +97,7 @@ DZE_doorManagementMustBeClose = true; //Players must be within 10m of door to be
 DZE_doorManagementAdmins = ["76561198041381065"]; //Array of admin PlayerUIDs. UIDs in this list are able to access every door's management menu and open it.
 
 vehsRemoveThermal = ["hmmwv_tow_des_ep1","hmmwv_tow","HMMWV_m998_crows_M2_DES_EP1","ah1z","M1A2_TUSK_MG","M1A2_US_TUSK_MG_EP1","T72_TK_EP1","BMP2_TK_EP1","M2A2_EP1","M2A3_EP1","M6_EP1","BAF_FV510_D","BAF_FV510_W","M1126_ICV_M2_EP1","M1126_ICV_MK19_EP1","M1128_MGS_EP1",
-"AH64D_EP1","BAF_Apache_AH1_D","Mi24_D_TK_EP1","M1A1","AAV","T72_CDF","T72_INS","T72_RU","T72_Gue","T90","BMP2_CDF","BMP2_INS","BMP3","BRDM2_CDF","BRDM2_INS","BRDM2_GUE","BTR90","LAV25","GAZ_Vodnik_HMG","AH1Z","AH64D","Mi24_D","Mi24_P","Mi24_V","Ka52","Ka52Black"];
+"AH64D_EP1","BAF_Apache_AH1_D","Mi24_D_TK_EP1","M1A1","AAV","T72_CDF","T72_INS","T72_RU","T72_Gue","T90","BMP2_CDF","BMP2_INS","BMP3","BRDM2_CDF","BRDM2_INS","BRDM2_GUE","LAV25","GAZ_Vodnik_HMG","AH1Z","AH64D","Mi24_D","Mi24_P","Mi24_V","Ka52","Ka52Black"];
 
 // Group System
 dayz_groupSystem = true;
@@ -228,7 +228,7 @@ if (isServer) then {
 	// Lootable objects from CfgTownGeneratorDefault.hpp
 	if (dayz_townGenerator) then { execVM "\z\addons\dayz_code\system\mission\chernarus\MainLootableObjects.sqf"; };
 	//Most Wanted
-	execVM "\z\addons\dayz_server\missions\most_wanted.sqf";
+	//execVM "\z\addons\dayz_server\missions\most_wanted.sqf";
 };
 
 if (!isDedicated) then {

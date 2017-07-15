@@ -373,5 +373,11 @@ class Category_678 {
 		buy[] = {150000,"worth"};
 		sell[] = {100000,"worth"};
 	};
+	class ItemLockbox {
+		type = "trade_items";
+		buy[] = {50000,"worth"};
+		sell[] = {20000,"worth"};
+	};
+
 
 };
