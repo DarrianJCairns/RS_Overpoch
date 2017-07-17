@@ -4,6 +4,7 @@ _messages = [
 	["Rising Sun", "Welcome "+(name player)],
 	["World", worldName],
 	["Server Info", "THIS IS A HIGH PVP SERVER- EXPECT TO DIE A LOT"],
+	["Hero/Bandit Traders", "You will need 10000 Humanity for Hero, -10000 for Bandit!!"],
 	["Server Rules", "Duping, glitching or using any<br />exploit will result in a<br />permanent ban."],
 	["Server Rules", "No talking in side."],
 	["Server Rules", "Hackers will be banned permanently<br />Respect others"],

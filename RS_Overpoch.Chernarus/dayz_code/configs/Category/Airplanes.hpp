@@ -52,47 +52,57 @@ class Category_517 {
 	};
 	class A10 {
         type = "trade_any_vehicle";
-        sell[] = {17000000,"worth"};
+		buy[] = {50000000,"worth"};
+        sell[] = {20000000,"worth"};
     };
     class A10_US_EP1 {
         type = "trade_any_vehicle";
-        sell[] = {17000000,"worth"};
+		buy[] = {50000000,"worth"};
+        sell[] = {20000000,"worth"};
     };
 	class F35B {
         type = "trade_any_vehicle";
-        sell[] = {10000000,"worth"};
+		buy[] = {50000000,"worth"};
+        sell[] = {20000000,"worth"};
     };
 	class AV8B {
         type = "trade_any_vehicle";
+		buy[] = {50000000,"worth"};
         sell[] = {20000000,"worth"};
     };
     class AV8B2 {
         type = "trade_any_vehicle";
+		buy[] = {50000000,"worth"};
         sell[] = {20000000,"worth"};
     };
 	
 	class su39 {
         type = "trade_any_vehicle";
+		buy[] = {50000000,"worth"};
         sell[] = {20000000,"worth"};
     };
 	
 	class su25_cdf {
         type = "trade_any_vehicle";
+		buy[] = {50000000,"worth"};
         sell[] = {20000000,"worth"};
     };
 	
 	class su25_ins {
         type = "trade_any_vehicle";
+		buy[] = {50000000,"worth"};
         sell[] = {20000000,"worth"};
     };
 	
 	class su34 {
         type = "trade_any_vehicle";
+		buy[] = {50000000,"worth"};
         sell[] = {20000000,"worth"};
     };
 	
 	class su25_tk_ep1 {
         type = "trade_any_vehicle";
+		buy[] = {50000000,"worth"};
         sell[] = {20000000,"worth"};
     };
 	
