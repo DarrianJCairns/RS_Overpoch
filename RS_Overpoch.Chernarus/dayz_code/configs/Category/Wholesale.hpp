@@ -1,7 +1,7 @@
 class Category_675 {
 		class itemhotwirekit {
 		type = "trade_items";
-		buy[] = {6000000,"worth"};
+		buy[] = {5000000,"worth"};
 		sell[] = {750000,"worth"};
 	};
 	class bulk_17Rnd_9x19_glock17 {

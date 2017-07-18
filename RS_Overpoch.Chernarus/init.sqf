@@ -115,12 +115,15 @@ EpochEvents = [
 	["any","any","any","any",15,"Treasure"],
 	["any","any","any","any",30,"Construction"],
 	["any","any","any","any",45,"abandonedvault"],
+	["any","any","any","any",40,"gasstations"],
 	["any","any","any","any",60,"Military"],
 	["any","any","any","any",75,"Treasure"],
 	["any","any","any","any",90,"Military"],
 	["any","any","any","any",105,"abandonedvault"],
-	["any","any","any","any",120,"Construction"]
-//	["any","any","any","any",135,"secret_event"]
+	["any","any","any","any",70,"gasstations"],
+	["any","any","any","any",120,"Construction"],
+	["any","any","any","any",150,"gasstations"]
+///	["any","any","any","any",135,"secret_event"]
 
 ];
 
