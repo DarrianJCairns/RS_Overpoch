@@ -37,7 +37,7 @@ if (dayz_presets == "Custom") then {
 };
 
 //Temp settings
-dayz_DamageMultiplier = 2; //1 - 0 = Disabled, anything over 1 will multiply damage. Damage Multiplier for Zombies.
+dayz_DamageMultiplier = 3; //1 - 0 = Disabled, anything over 1 will multiply damage. Damage Multiplier for Zombies.
 dayz_maxGlobalZeds = 20; //Limit the total zeds server wide.
 dayz_maxLocalZombies = 5; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
 dayz_maxNearByZombies = 5; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
@@ -57,7 +57,7 @@ DefaultWeapons = ["ItemRadio"];
 dayz_paraSpawn = false; // Halo spawn
 DZE_HaloAltitudeMeter = true; // Display altitude and speed on screen while in halo jump.
 dayz_poleSafeArea = 80; // Default = 30m, the buildable distance
-DZE_NameTags = 2; // Name displays when looking at player up close  0 = Off, 1= On, 2 = Player choice
+DZE_NameTags = 0; // Name displays when looking at player up close  0 = Off, 1= On, 2 = Player choice
 DZE_UI = "epoch"; //"vanilla","epoch","dark"  UI status icons style. Dark accommodates color blind people.
 DZE_DeathMsgDynamicText = true; // Display death messages as dynamicText in the top left with weapon icons.
 DZE_DeathMsgChat = "global"; //"none","global","side","system" Display death messages in selected chat channel.
@@ -76,12 +76,12 @@ DZE_BuildingLimit = 350; // Max number of built objects allowed in DZE_PlotPole 
 DZE_SelfTransfuse = true; // Allow players to bloodbag themselves
 DZE_selfTransfuse_Values = [6000,15,10]; // [blood amount given, infection chance %, cooldown in seconds]
 MaxDynamicDebris = 1; // Max number of random road blocks to spawn around the map
-MaxVehicleLimit = 50; // Max number of random vehicles to spawn around the map
-MaxMineVeins = 5;
+MaxVehicleLimit = 20; // Max number of random vehicles to spawn around the map
+MaxMineVeins = 1;
 
 MaxHeliCrashes = 1;
-dayz_maxAnimals = 2; // Default: 8
-dayz_maxGlobalAnimals = 2;
+dayz_maxAnimals = 1; // Default: 8
+dayz_maxGlobalAnimals = 1;
 
 // Plot Management and Plot for Life
 DZE_plotManagementMustBeClose = true; //Players must be within 10m of pole to be added as a plot friend.
@@ -211,7 +211,7 @@ initialized = true;
 
 // Terrain and view distance
 setTerrainGrid 50;
-setViewDistance 4000;
+setViewDistance 2000;
 
 
 if (dayz_REsec == 1) then {call compile preprocessFileLineNumbers "\z\addons\dayz_code\system\REsec.sqf";};
