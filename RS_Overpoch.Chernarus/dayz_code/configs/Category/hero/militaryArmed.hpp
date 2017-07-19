@@ -66,32 +66,37 @@ class LandRover_MG_TK_EP1_DZE {
 	};
 	class BRDM2_HQ_GUE {
 		type = "trade_any_vehicle";
-		buy[] = {700000,"worth"};
+		buy[] = {500000,"worth"};
 		sell[] = {150000,"worth"};
 	};
 	class BTR90_HQ {
 		type = "trade_any_vehicle";
-		buy[] = {1000000,"worth"};
-		sell[] = {200000,"worth"};
+		buy[] = {1500000,"worth"};
+		sell[] = {500000,"worth"};
 	};
 	class M1A1 {
         type = "trade_any_vehicle";
-		buy[] = {15000000,"worth"};
+   buy[] = {14000000,"worth"};
+       
+
         sell[] = {5250000,"worth"};
     };
 	class M1A1_US_DES_EP1 {
         type = "trade_any_vehicle";
-		buy[] = {14000000,"worth"};
+   buy[] = {14000000,"worth"};
+        
+
         sell[] = {5250000,"worth"};
     };
 	class M1A2_TUSK_MG {
         type = "trade_any_vehicle";
-		buy[] = {15000000,"worth"};
+       
+
         sell[] = {8000000,"worth"};
     };
 	class M1A2_US_TUSK_MG_EP1 {
         type = "trade_any_vehicle";
-		buy[] = {15000000,"worth"};
+       
         sell[] = {8000000,"worth"};
     };
 	class AAV {
@@ -124,9 +129,14 @@ class LandRover_MG_TK_EP1_DZE {
 		buy[] ={7500000,"Dollars"};
 		sell[] ={3750000,"Dollars"};
 	};
+
+
+
 	class T90 {
         type = "trade_any_vehicle";
-		buy[] = {25000000,"worth"};
+
+     
+
         sell[] = {7250000,"worth"};
     };
 	class BMP2_CDF {
@@ -144,10 +154,15 @@ class LandRover_MG_TK_EP1_DZE {
         buy[] = {3000000,"worth"};
         sell[] = {1500000,"worth"};
     };
+
 	class T34 {
         type = "trade_any_vehicle";
+
+
         buy[] = {900000,"worth"};
         sell[] = {450000,"worth"};
+
+
     };
 	class T55_TK_GUE_EP1 {
         type = "trade_any_vehicle";
@@ -195,7 +210,7 @@ class LandRover_MG_TK_EP1_DZE {
 	class hmmwv_mk19                       {type = "trade_any_vehicle";buy[] ={90000,"Dollars"};sell[] ={45000,"Dollars"};};
 	class hmmwv_m2                         {type = "trade_any_vehicle";buy[] ={80000,"Dollars"};sell[] ={40000,"Dollars"};};
 	class btr40_mg_tk_gue_ep1              {type = "trade_any_vehicle";buy[] ={50000,"Dollars"};sell[] ={25000,"Dollars"};};
-	class BTR40_TK_INS_EP1				   {type = "trade_any_vehicle";buy[] ={50000,"Dollars"};sell[] ={25000,"Dollars"};};
+	class BTR40_TK_INS_EP1              {type = "trade_any_vehicle";buy[] ={50000,"Dollars"};sell[] ={25000,"Dollars"};};
 	
 	class BAF_FV510_D {
         type = "trade_any_vehicle";
@@ -250,8 +265,12 @@ class LandRover_MG_TK_EP1_DZE {
     };
 	class M1135_ATGMV_EP1 {
         type = "trade_any_vehicle";
+
+
         buy[] = {1000000,"worth"};
         sell[] = {500000,"worth"};
+
+
     };
 	class HMMWV_Avenger {
         type = "trade_any_vehicle";

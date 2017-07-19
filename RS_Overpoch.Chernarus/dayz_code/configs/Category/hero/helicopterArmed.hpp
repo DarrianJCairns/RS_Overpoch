@@ -62,12 +62,12 @@ class Category_493 {
 	};
 	class AH1Z {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+       
         sell[] = {7500000,"worth"};
     };
 	class AH6J_EP1 {
         type = "trade_any_vehicle";
-        buy[] = {1500000,"worth"};
+        
         sell[] = {450000,"worth"};
     };
 	class Mi17_INS {
@@ -78,41 +78,41 @@ class Category_493 {
 
 	class Mi17_rockets_RU {
         type = "trade_any_vehicle";
-        buy[] = {5000000,"worth"};
+        
         sell[] = {2500000,"worth"};
     };
 	class Mi24_P {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+       
         sell[] = {6500000,"worth"};
     };
 
 	class Ka52 {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+        
         sell[] = {6000000,"worth"};
     };
 
 	class Ka52Black {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+       
         sell[] = {6000000,"worth"};
     };
 
 	class Ka60_GL_PMC {
         type = "trade_any_vehicle";
-        buy[] = {1000000,"worth"};
+       
         sell[] = {275000,"worth"};
     };
 
 	class CH_47F_BAF {
 		type = "trade_any_vehicle";
-		buy[] = {112000,"Dollars"};
-		sell[] = {75000,"Dollars"};
+		buy[] ={112000,"Dollars"};
+		sell[] ={75000,"Dollars"};
 	};
 	class Ka60_PMC {
         type = "trade_any_vehicle";
-        buy[] = {1000000,"worth"};
+        
         sell[] = {275000,"worth"};
     };
 
@@ -138,25 +138,26 @@ class Category_493 {
 		buy[] = {150000,"worth"};
 		sell[] = {100000,"worth"};
     };
+
 	class UH1Y {
         type = "trade_any_vehicle";
-		buy[] = {1000000,"worth"};
+		
 		sell[] = {500000,"worth"};
     };
 	class AH64D {
         type = "trade_any_vehicle";
-        buy[] = {13000000,"worth"};
+        
         sell[] = {6500000,"worth"};
     };
 
 	class AH64D_EP1 {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+        
         sell[] = {6500000,"worth"};
     };
 	class BAF_Apache_AH1_D {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+       
         sell[] = {6500000,"worth"};
     };
     class UH60M_EP1 {
@@ -164,6 +165,7 @@ class Category_493 {
         buy[] = {225000,"worth"};
         sell[] = {100000,"worth"};
     };
+
 	class UH60M_MEV_EP1 {
         type = "trade_any_vehicle";
         buy[] = {225000,"worth"};
@@ -176,23 +178,24 @@ class Category_493 {
     };
     class Mi24_D {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+       
         sell[] = {6500000,"worth"};
     };
 	class Mi24_V {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+       
         sell[] = {6500000,"worth"};
     };
 	
 	class Mi24_D_TK_EP1 {
         type = "trade_any_vehicle";
-        buy[] = {15000000,"worth"};
+        
         sell[] = {6500000,"worth"};
     };
+	
 	class AW159_Lynx_BAF {
         type = "trade_any_vehicle";
-        buy[] = {9000000,"worth"};
+       
         sell[] = {4500000,"worth"};
     };
 };
