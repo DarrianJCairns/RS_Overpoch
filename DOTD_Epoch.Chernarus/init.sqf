@@ -5,7 +5,7 @@
 
 //Server settings
 dayZ_instance = 11; //Instance ID of this server
-dayZ_serverName = "Dawn of the dead"; //Shown to all players in the bottom left of the screen (country code + server number)
+dayZ_serverName = "DotD"; //Shown to all players in the bottom left of the screen (country code + server number)
 
 //Game settings
 dayz_antihack = 0; // DayZ Antihack / 1 = enabled // 0 = disabled
