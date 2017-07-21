@@ -6,8 +6,6 @@
 */
 
 class_selection = true; //Enable class selection dialog
-//#define START_ITEMS "ItemBandage",3,"ItemPainkiller","ItemBloodbag","ItemMorphine","ItemSodaCoke","FoodPistachio","PartGeneric","17Rnd_9x19_glock17",3
-//#define START_WEAPONS "Binocular_Vector","ItemMap","ItemGPS","ItemRadio","ItemToolbox","ItemCompass","G17_DZ"
 
 #define VIP_TOOLS "ItemToolbox","ItemMap","ItemRadio","ItemGPS","ItemCrowbar","Binocular_Vector","ItemCompass","ItemHatchet","ItemKnife","Itemetool","ItemFishingPole","NVGoggles_DZE"
 #define T3_TOOLS "ItemToolbox","ItemMap","ItemRadio","Binocular_Vector","ItemCompass","ItemHatchet","ItemKnife","Itemetool","ItemFishingPole","NVGoggles_DZE"
@@ -19,62 +17,32 @@ class_selection = true; //Enable class selection dialog
 
 class_public = [ // These are visible to anyone on the server
 
-["Hero King","Sniper1_DZ","BanditW2_DZ",["PartGeneric","10Rnd_127x99_m107",3,"30Rnd_9x19_UZI_SD",3,MED_ITEMS],["m107_DZ","UZI_SD_EP1",VIP_TOOLS],"DZ_Backpack_EP1",[DEPLOY_ITEMS],[],0,2000000,0,""],
-["Hero Level 10","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","RH_20Rnd_762x51_SD_hk417",3,"30Rnd_9x19_UZI_SD",3,MED_ITEMS],["RH_hk417sdsp","UZI_SD_EP1",VIP_TOOLS],"DZ_Backpack_EP1",[DEPLOY_ITEMS],[],0,1000000,0,""],
-["Hero Level 9 ","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","20Rnd_762x51_DMR",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["DMR","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,800000,0,""],
-["Hero Level 8","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_86x70_L115A1",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["BAF_LRR_scoped_W","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,600000,0,""],
-["Hero Level 7","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","20rnd_762x51_SB_SCAR",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["SCAR_H_CQC_CCO_SD","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,400000,0,""],
-["Hero Level 6","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","20Rnd_762x51_FNFAL",3,"15Rnd_9x19_M9",3,MED_ITEMS],["FNFAL_DZ","M9_DZ",T2_TOOLS],"DZ_British_ACU",[],[],0,250000,0,""],
-["Hero Level 5","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_556x45_Stanag",3,"15Rnd_9x19_M9",3,MED_ITEMS],["M16A4_DZ","M9_DZ",T2_TOOLS],"DZ_British_ACU",[],[],0,120000,0,""],
-["Hero Level 4","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_545x39_AK",3,"15Rnd_9x19_M9",3,MED_ITEMS],["AK_74","M9_DZ",T2_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,80000,0,""],
-["Hero Level 3","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_762x54_Mosin",3,"15Rnd_9x19_M9",3,MED_ITEMS],["Mosin_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,45000,0,""],
-["Hero Level 2","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","10x_303",3,"15Rnd_9x19_M9",3,MED_ITEMS],["LeeEnfield","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,20000,0,""],
-["Hero Level 1","Survivor2_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_9x19_MP5",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["MP5_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,10000,0,""],
+["Hero 1 Mil","Sniper1_DZ","BanditW2_DZ",["PartGeneric","10Rnd_127x99_m107",3,"30Rnd_9x19_UZI_SD",3,MED_ITEMS],["m107_DZ","UZI_SD_EP1",VIP_TOOLS],"DZ_Backpack_EP1",[DEPLOY_ITEMS],[],0,1000000,0,""],
+//["Hero Level 10","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","RH_20Rnd_762x51_SD_hk417",3,"30Rnd_9x19_UZI_SD",3,MED_ITEMS],["RH_hk417sdsp","UZI_SD_EP1",VIP_TOOLS],"DZ_Backpack_EP1",[DEPLOY_ITEMS],[],0,1000000,0,""],
+//["Hero Level 9 ","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","20Rnd_762x51_DMR",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["DMR","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,800000,0,""],
+//["Hero Level 8","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_86x70_L115A1",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["BAF_LRR_scoped_W","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,600000,0,""],
+//["Hero Level 7","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","20rnd_762x51_SB_SCAR",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["SCAR_H_CQC_CCO_SD","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,400000,0,""],
+//["Hero Level 6","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","20Rnd_762x51_FNFAL",3,"15Rnd_9x19_M9",3,MED_ITEMS],["FNFAL_DZ","M9_DZ",T2_TOOLS],"DZ_British_ACU",[],[],0,250000,0,""],
+["Hero 500,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_556x45_Stanag",3,"15Rnd_9x19_M9",3,MED_ITEMS],["M16A4_DZ","M9_DZ",T2_TOOLS],"DZ_British_ACU",[],[],0,500000,0,""],
+["Hero 375,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_545x39_AK",3,"15Rnd_9x19_M9",3,MED_ITEMS],["AK_74","M9_DZ",T2_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,375000,0,""],
+["Hero 150,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_762x54_Mosin",3,"15Rnd_9x19_M9",3,MED_ITEMS],["Mosin_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,150000,0,""],
+["Hero 50,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","10x_303",3,"15Rnd_9x19_M9",3,MED_ITEMS],["LeeEnfield","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,50000,0,""],
+["Hero 10,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_9x19_MP5",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["MP5_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,10000,0,""],
 
-	[
-		"Bambi",
-		[[	
-			"Survivor2_DZ",
-			"Haris_Press_EP1_DZ",
-			"Rocker1_DZ",
-			"Pilot_EP1_DZ",
-			"INS_Lopotev_DZ",
-			"Worker1_DZ"
-		 ],
-		 [
-			"BanditW1_DZ",
-			"BanditW2_DZ",
-			"SurvivorW2_DZ",
-			"SurvivorW3_DZ",
-			"SurvivorWcombat_DZ",
-			"SurvivorWdesert_DZ",
-			"SurvivorWpink_DZ",
-			"SurvivorWurban_DZ"
-		  ]
-		],
-		["ItemBandage",3,"ItemPainkiller","ItemWaterbottle","FoodPistachio","PartGeneric","ItemMorphine"],5,
-		["ItemToolbox","ItemMap","ItemRadio","Binocular_vector"],4,
-		["Winchester1866_DZ","MR43_DZ","Winchester1866_DZ","MR43_DZ"],2,
-		["M1911_DZ","Revolver_DZ","M9_DZ"],2,
-		[""], // use [""] for none
-		[],1,
-		[],2,
-		[],2,
-		[],3,
-		0,0,0
-	],
+["Bambi 1","Survivor2_DZ","SurvivorWcombat_DZ",["PartGeneric",MED_ITEMS],["Winchester1866_DZ",3,"M9_DZ",3,T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,0,0,""],
+["Bambi 2","Survivor2_DZ","SurvivorWcombat_DZ",["PartGeneric",MED_ITEMS],["MR43_DZ",3,"M9_DZ",3,T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,0,0,""],
 
-["Bandit Level 1","Survivor2_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_9x19_MP5",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["MP5_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-10000,0,""],
-["Bandit Level 2","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","10x_303",3,"15Rnd_9x19_M9",3,MED_ITEMS],["LeeEnfield","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-20000,0,""],
-["Bandit Level 3","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_762x54_Mosin",3,"15Rnd_9x19_M9",3,MED_ITEMS],["Mosin_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-45000,0,""],
-["Bandit Level 4","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_545x39_AK",3,"15Rnd_9x19_M9",3,MED_ITEMS],["AK_74","M9_DZ",T2_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-80000,0,""],
-["Bandit Level 5","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_556x45_Stanag",3,"15Rnd_9x19_M9",3,MED_ITEMS],["M16A4_DZ","M9_DZ",T2_TOOLS],"DZ_British_ACU",["PartGeneric"],[],0,-120000,0,""],
-["Bandit Level 6","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","20Rnd_762x51_FNFAL",3,"15Rnd_9x19_M9",3,MED_ITEMS],["FNFAL_DZ","M9_DZ",T2_TOOLS],"DZ_British_ACU",["PartGeneric"],[],0,-250000,0,""],
-["Bandit Level 7","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","20rnd_762x51_SB_SCAR",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["SCAR_H_CQC_CCO_SD","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,-400000,0,""],
-["Bandit Level 8","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_86x70_L115A1",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["BAF_LRR_scoped_W","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,-600000,0,""],
-["Bandit Level 9","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","20Rnd_762x51_DMR",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["DMR","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,-800000,0,""],
-["Bandit Level 10","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","RH_20Rnd_762x51_SD_hk417",3,"30Rnd_9x19_UZI_SD",3,MED_ITEMS],["RH_hk417sdsp","UZI_SD_EP1",VIP_TOOLS],"DZ_Backpack_EP1",[DEPLOY_ITEMS],[],0,-1000000,0,""],
-["Bandit King","Sniper1_DZ","BanditW2_DZ",["PartGeneric","10Rnd_127x99_m107",3,"30Rnd_9x19_UZI_SD",3,MED_ITEMS],["m107_DZ","UZI_SD_EP1",VIP_TOOLS],"DZ_Backpack_EP1",[DEPLOY_ITEMS],[],0,-2000000,0,""]
+["Bandit 10,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_9x19_MP5",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["MP5_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-10000,0,""],
+["Bandit 50,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","10x_303",3,"15Rnd_9x19_M9",3,MED_ITEMS],["LeeEnfield","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-50000,0,""],
+["Bandit 150,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_762x54_Mosin",3,"15Rnd_9x19_M9",3,MED_ITEMS],["Mosin_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-150000,0,""],
+["Bandit 175,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_545x39_AK",3,"15Rnd_9x19_M9",3,MED_ITEMS],["AK_74","M9_DZ",T2_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-375000,0,""],
+["Bandit 500,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_556x45_Stanag",3,"15Rnd_9x19_M9",3,MED_ITEMS],["M16A4_DZ","M9_DZ",T2_TOOLS],"DZ_British_ACU",["PartGeneric"],[],0,-500000,0,""],
+//["Bandit Level 6","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","20Rnd_762x51_FNFAL",3,"15Rnd_9x19_M9",3,MED_ITEMS],["FNFAL_DZ","M9_DZ",T2_TOOLS],"DZ_British_ACU",["PartGeneric"],[],0,-250000,0,""],
+//["Bandit Level 7","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","20rnd_762x51_SB_SCAR",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["SCAR_H_CQC_CCO_SD","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,-400000,0,""],
+//["Bandit Level 8","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_86x70_L115A1",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["BAF_LRR_scoped_W","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,-600000,0,""],
+//["Bandit Level 9","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","20Rnd_762x51_DMR",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["DMR","M9_SD_DZ",T3_TOOLS],"DZ_GunBag_EP1",["PartGeneric"],[],0,-800000,0,""],
+//["Bandit Level 10","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","RH_20Rnd_762x51_SD_hk417",3,"30Rnd_9x19_UZI_SD",3,MED_ITEMS],["RH_hk417sdsp","UZI_SD_EP1",VIP_TOOLS],"DZ_Backpack_EP1",[DEPLOY_ITEMS],[],0,-1000000,0,""],
+["Bandit 1 Mil","Sniper1_DZ","BanditW2_DZ",["PartGeneric","5Rnd_86x70_L115A1",3,"30Rnd_9x19_UZI_SD",3,MED_ITEMS],["BAF_LRR_scoped_W","UZI_SD_EP1",VIP_TOOLS],"DZ_Backpack_EP1",[DEPLOY_ITEMS],[],0,-1000000,0,""]
 
 ];
 
