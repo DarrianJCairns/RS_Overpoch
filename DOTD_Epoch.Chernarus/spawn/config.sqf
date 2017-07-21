@@ -27,12 +27,12 @@ class_public = [ // These are visible to anyone on the server
 ["Hero 375,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_545x39_AK",3,"15Rnd_9x19_M9",3,MED_ITEMS],["AK_74","M9_DZ",T2_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,375000,0,""],
 ["Hero 150,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_762x54_Mosin",3,"15Rnd_9x19_M9",3,MED_ITEMS],["Mosin_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,150000,0,""],
 ["Hero 50,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","10x_303",3,"15Rnd_9x19_M9",3,MED_ITEMS],["LeeEnfield","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,50000,0,""],
-["Hero 10,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_9x19_MP5",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["MP5_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,10000,0,""],
+["Hero 10,000","Soldier_Sniper_PMC_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_9x19_MP5",3,"15Rnd_9x19_M9",3,MED_ITEMS],["MP5_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,10000,0,""],
 
-["Bambi 1","Survivor2_DZ","SurvivorWcombat_DZ",["PartGeneric",MED_ITEMS],["Winchester1866_DZ",3,"M9_DZ",3,T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,0,0,""],
-["Bambi 2","Survivor2_DZ","SurvivorWcombat_DZ",["PartGeneric",MED_ITEMS],["MR43_DZ",3,"M9_DZ",3,T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,0,0,""],
+["Bambi 1","Survivor2_DZ","SurvivorWcombat_DZ",["PartGeneric","15Rnd_W1866_Slug",3,"15Rnd_9x19_M9",3,MED_ITEMS],["Winchester1866_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,0,0,""],
+["Bambi 2","Survivor2_DZ","SurvivorWcombat_DZ",["PartGeneric","2Rnd_12Gauge_Slug",3,"15Rnd_9x19_M9",3,MED_ITEMS],["MR43_DZ",3,"M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",[],[],0,0,0,""],
 
-["Bandit 10,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_9x19_MP5",3,"15Rnd_9x19_M9SD",3,MED_ITEMS],["MP5_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-10000,0,""],
+["Bandit 10,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_9x19_MP5",3,"15Rnd_9x19_M9",3,MED_ITEMS],["MP5_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-10000,0,""],
 ["Bandit 50,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","10x_303",3,"15Rnd_9x19_M9",3,MED_ITEMS],["LeeEnfield","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-50000,0,""],
 ["Bandit 150,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","5Rnd_762x54_Mosin",3,"15Rnd_9x19_M9",3,MED_ITEMS],["Mosin_DZ","M9_DZ",T1_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-150000,0,""],
 ["Bandit 175,000","Bandit1_DZ","SurvivorWcombat_DZ",["PartGeneric","30Rnd_545x39_AK",3,"15Rnd_9x19_M9",3,MED_ITEMS],["AK_74","M9_DZ",T2_TOOLS],"DZ_ALICE_Pack_EP1",["PartGeneric"],[],0,-375000,0,""],
