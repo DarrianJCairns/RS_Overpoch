@@ -32,7 +32,7 @@ class Category_538 {
 	class DZ_British_ACU {
 		type = "trade_backpacks";
 		buy[] = {32000,"worth"};
-		sell[] = {9500,"worth"};
+		sell[] = {7500,"worth"};
 	};
 	class DZ_GunBag_EP1 {
 		type = "trade_backpacks";
@@ -42,16 +42,16 @@ class Category_538 {
 	class DZ_CivilBackpack_EP1 {
 		type = "trade_backpacks";
 		buy[] = {150000,"worth"};
-		sell[] = {800000,"worth"};
+		sell[] = {80000,"worth"};
 	};
 	class DZ_Backpack_EP1 {
 		type = "trade_backpacks";
 		buy[] = {200000,"worth"};
-		sell[] = {125000,"worth"};
+		sell[] = {90000,"worth"};
 	};
 	class DZ_LargeGunBag_EP1 {
 		type = "trade_backpacks";
 		buy[] = {270000,"worth"};
-		sell[] = {170000,"worth"};
+		sell[] = {120000,"worth"};
 	};
 };

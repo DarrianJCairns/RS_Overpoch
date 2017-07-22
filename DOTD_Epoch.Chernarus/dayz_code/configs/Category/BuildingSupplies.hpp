@@ -1,33 +1,33 @@
 class Category_678 {
 	class itemmixoil {
 		type = "trade_items";
-		buy[] = {1500,"worth"};
+		buy[] = {2500,"worth"};
 		sell[] = {500,"worth"};
 	};
 
 	class full_cinder_wall_kit {
 		type = "trade_items";
-		buy[] = {1500,"worth"};
+		buy[] = {2500,"worth"};
 		sell[] = {500,"worth"};
 	};
 	class half_cinder_wall_kit {
 		type = "trade_items";
-		buy[] = {1500,"worth"};
+		buy[] = {2500,"worth"};
 		sell[] = {500,"worth"};
 	};
 	class metal_floor_kit {
 		type = "trade_items";
-		buy[] = {1500,"worth"};
+		buy[] = {2500,"worth"};
 		sell[] = {500,"worth"};
 	};	
 	class cinder_door_kit {
 		type = "trade_items";
-		buy[] = {1500,"Dollars"};
+		buy[] = {2500,"Dollars"};
 		sell[] = {500,"Dollars"};
 	};
 	class cinder_garage_kit {
 		type = "trade_items";
-		buy[] = {1500,"Dollars"};
+		buy[] = {2500,"Dollars"};
 		sell[] = {500,"Dollars"};
 	};	
 	class CinderBlocks {
@@ -37,12 +37,12 @@ class Category_678 {
 	};
 	class forest_net_kit {
 		type = "trade_items";
-		buy[] = {2000,"Dollars"};
+		buy[] = {2500,"Dollars"};
 		sell[] = {1000,"Dollars"};
 	};
 	class desert_net_kit {
 		type = "trade_items";
-		buy[] = {2000,"Dollars"};
+		buy[] = {2500,"Dollars"};
 		sell[] = {1000,"Dollars"};
 	};
 	
@@ -89,13 +89,13 @@ class Category_678 {
 	
 	class bulk_PartGeneric {
 		type = "trade_items";
-		buy[] ={2000,"Dollars"};
+		buy[] ={2500,"Dollars"};
 		sell[] ={500,"Dollars"};
 	};
 	
 	class bulk_ItemSodaPepsi {
 		type = "trade_items";
-		buy[] ={2000,"Dollars"};
+		buy[] ={2500,"Dollars"};
 		sell[] ={500,"Dollars"};
 	};
 	
@@ -107,7 +107,7 @@ class Category_678 {
 	
 	class bulk_ItemSodaCokeFull {
 		type = "trade_items";
-		buy[] ={2000,"Dollars"};
+		buy[] ={2500,"Dollars"};
 		sell[] ={500,"Dollars"};
 	};
 	
@@ -249,7 +249,7 @@ class Category_678 {
 	class storage_shed_kit {
 		type = "trade_items";
 		buy[] = {70000,"worth"};
-		sell[] = {2000,"worth"};
+		sell[] = {2500,"worth"};
 	};
 	
 	class ItemLightBulb {
@@ -295,7 +295,7 @@ class Category_678 {
 	/* class equip_scrapelectronics {
 		type = "trade_items";
 		buy[] = {4000,"worth"};
-		sell[] = {2000,"worth"};
+		sell[] = {2500,"worth"};
 	}; */
 	class equip_metal_sheet {
 		type = "trade_items";
@@ -366,17 +366,17 @@ class Category_678 {
 	class ItemComboLock {
 		type = "trade_items";
 		buy[] ={5000,"Dollars"};
-		sell[] ={500,"Dollars"};
+		sell[] ={1000,"Dollars"};
 	};
 	class ItemVault {
 		type = "trade_items";
-		buy[] = {15000,"worth"};
-		sell[] = {10000,"worth"};
+		buy[] = {70000,"worth"};
+		sell[] = {30000,"worth"};
 	};
 	class ItemLockbox {
 		type = "trade_items";
-		buy[] = {5000,"worth"};
-		sell[] = {2000,"worth"};
+		buy[] = {50000,"worth"};
+		sell[] = {15000,"worth"};
 	};
 
 
