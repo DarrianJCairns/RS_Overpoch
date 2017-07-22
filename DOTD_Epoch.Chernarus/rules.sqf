@@ -4,7 +4,7 @@ _messages = [
 	["Dawn Of The Dead!", "Welcomes you "+(name player)],
 	["World", worldName],
 	["Server Info", "THIS IS A HIGH PvPvE SERVER - So work as a team! Or.. Kill eachother!"],
-	["Hero/Bandit Traders", "You will need 10000 Humanity for Hero, -10000 for Bandit!!"],
+	["Hero/Bandit Traders", "You will need 5000 Humanity for Hero, -5000 for Bandit!!"],
 	["Server Rules", "Duping, glitching or using any<br />exploit will result in a<br />permanent ban."],
 	["Server Rules", "No talking/spamming in side."],
 	["Server Rules", "Hackers will be banned permanently<br />Respect others"]

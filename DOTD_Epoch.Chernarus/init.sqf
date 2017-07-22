@@ -24,7 +24,7 @@ dayz_presets = "Custom"; //"Custom","Classic","Vanilla","Elite"
 //Only need to edit if you are running a custom server.
 if (dayz_presets == "Custom") then {
 	dayz_enableGhosting = true; //Enable disable the ghosting system.
-	dayz_ghostTimer = 30; //Sets how long in seconds a player must be disconnected before being able to login again.
+	dayz_ghostTimer = 10; //Sets how long in seconds a player must be disconnected before being able to login again.
 	dayz_spawnselection = 0; //(Chernarus only) Turn on spawn selection 0 = random only spawns, 1 = spawn choice based on limits
 	dayz_spawncarepkgs_clutterCutter = 0; //0 = loot hidden in grass, 1 = loot lifted, 2 = no grass
 	dayz_spawnCrashSite_clutterCutter = 0;	// heli crash options 0 = loot hidden in grass, 1 = loot lifted, 2 = no grass
@@ -38,7 +38,7 @@ if (dayz_presets == "Custom") then {
 
 //Temp settings
 dayz_DamageMultiplier = 3; //1 - 0 = Disabled, anything over 1 will multiply damage. Damage Multiplier for Zombies.
-dayz_maxGlobalZeds = 100; //Limit the total zeds server wide.
+dayz_maxGlobalZeds = 15; //Limit the total zeds server wide.
 dayz_maxLocalZombies = 5; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
 dayz_maxNearByZombies = 5; // max quantity of Z controlled by local gameclient, used by player_spawnCheck. Below this limit we can spawn Z
 dayz_temperature_override = true; // Set to true to disable all temperature changes.
