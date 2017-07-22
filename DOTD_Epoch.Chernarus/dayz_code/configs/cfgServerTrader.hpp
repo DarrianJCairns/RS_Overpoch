@@ -1,6 +1,6 @@
 class CfgTradercategory {	
 	#include "category\bandit\Ammunition.hpp"
-	///#include "category\bandit\HelicopterArmed.hpp"
+	#include "category\bandit\HelicopterArmed.hpp"
 	///#include "category\bandit\MilitaryArmed.hpp"
 	#include "category\bandit\TrucksArmed.hpp"
 	#include "category\bandit\Weapons.hpp"
@@ -8,7 +8,7 @@ class CfgTradercategory {
 	
 	#include "category\hero\Ammunition.hpp"
 	#include "category\hero\Clothes.hpp"
-	///#include "category\hero\HelicopterArmed.hpp"
+	#include "category\hero\HelicopterArmed.hpp"
 	///#include "category\hero\MilitaryArmed.hpp"
 	#include "category\hero\TrucksArmed.hpp"
 	#include "category\hero\Weapons.hpp"

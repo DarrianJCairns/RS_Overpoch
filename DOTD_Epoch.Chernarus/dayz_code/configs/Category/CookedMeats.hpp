@@ -47,6 +47,6 @@ class Category_630 {
 	class FishCookedTuna {
 		type = "trade_items";
 		buy[] = {200000,"worth"};
-		sell[] = {900000,"worth"};
+		sell[] = {90000,"worth"};
 	};
 };
