@@ -2,22 +2,22 @@ class Category_1100 {
 	class ItemRuby {
 		type = "trade_items";
 		buy[] = {500000,"worth"};
-		sell[] = {450000,"worth"};
+		sell[] = {350000,"worth"};
 	};
 	class ItemCitrine {
 		type = "trade_items";
 		buy[] = {450000,"worth"};
-		sell[] = {400000,"worth"};
+		sell[] = {300000,"worth"};
 	};
 	class ItemEmerald {
 		type = "trade_items";
 		buy[] = {400000,"worth"};
-		sell[] = {350000,"worth"};
+		sell[] = {310000,"worth"};
 	};
 	class ItemAmethyst {
 		type = "trade_items";
 		buy[] = {350000,"worth"};
-		sell[] = {300000,"worth"};
+		sell[] = {320000,"worth"};
 	};
 	class ItemSapphire {
 		type = "trade_items";

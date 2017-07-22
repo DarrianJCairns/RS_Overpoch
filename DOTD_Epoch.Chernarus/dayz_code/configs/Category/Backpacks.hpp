@@ -47,11 +47,11 @@ class Category_538 {
 	class DZ_Backpack_EP1 {
 		type = "trade_backpacks";
 		buy[] = {270000,"worth"};
-		sell[] = {125000,"worth"};
+		sell[] = {120000,"worth"};
 	};
 	class DZ_LargeGunBag_EP1 {
 		type = "trade_backpacks";
 		buy[] = {320000,"worth"};
-		sell[] = {150000,"worth"};
+		sell[] = {120000,"worth"};
 	};
 };

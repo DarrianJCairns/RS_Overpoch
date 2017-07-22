@@ -71,7 +71,7 @@ DZE_StaticConstructionCount = 1; // Steps required to build. If greater than 0 t
 DZE_GodModeBase = true; // Make player built base objects indestructible
 DZE_GodModeBaseExclude = ["CinderWallSmallDoorway_DZ","CinderWallDoor_DZ","CinderWallDoorwayLocked_DZ","CinderWallDoorSmallLocked_DZ","CinderWallDoorLocked_DZ","WoodFloor_DZ","WoodLargeWall_DZ","WoodLargeWallWin_DZ","WoodFloorQuarter_DZ","WoodStairsSans_DZ","Land_DZE_LargeWoodDoorLocked","WoodStairsRails_DZ","WoodLadder_DZ","WoodRamp_DZ","WoodSmallWall_DZ","WoodSmallWallThird_DZ"];
 DZE_requireplot = 1; // Require a plot pole to build  0 = Off, 1 = On
-DZE_PlotPole = [40,100]; // Radius owned by plot pole [Regular objects,Other plotpoles]. Difference between them is the minimum buffer between bases.
+DZE_PlotPole = [50,120]; // Radius owned by plot pole [Regular objects,Other plotpoles]. Difference between them is the minimum buffer between bases.
 DZE_BuildingLimit = 200; // Max number of built objects allowed in DZE_PlotPole radius
 DZE_SelfTransfuse = true; // Allow players to bloodbag themselves
 DZE_selfTransfuse_Values = [12000,15,120]; // [blood amount given, infection chance %, cooldown in seconds]
@@ -152,7 +152,7 @@ BlacklistedBuildings = [
 RestrictedBuildingZones = [
 //  ["What text will say", [Choords of place to block], Distance around that area to block (radius in meters)]
     ["Trader City Bor", [3238.29, 3382.33, 0], 800],
-	["Trader City Stary", [6325.6772,7807.7412, 0], 800],
+	["Trader City Stary", [6325.6772,7807.7412, 0], 700],
 	["Trader City Bash", [4063.4226,11664.19, 0], 800],
 	["Trader City Klen", [11447.472,11364.504, 0], 800],
 	["Wholesaler East", [13441.16,5429.3013, 0], 200],
