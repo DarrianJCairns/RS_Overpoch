@@ -46,7 +46,7 @@ class Category_608 {
 	};
 	class tractor {
 		type = "trade_any_vehicle";
-		buy[] = {2000,"worth"};
-		sell[] = {1000,"worth"};
+		buy[] = {20000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 };

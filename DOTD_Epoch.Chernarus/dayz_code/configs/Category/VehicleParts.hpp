@@ -1,8 +1,8 @@
 class Category_677 {
 	class PartGeneric {
 		type = "trade_items";
-		buy[] = {200,"worth"};
-		sell[] = {10,"worth"};
+		buy[] = {2000,"worth"};
+		sell[] = {1000,"worth"};
 	};
 	class PartWheel {
 		type = "trade_items";

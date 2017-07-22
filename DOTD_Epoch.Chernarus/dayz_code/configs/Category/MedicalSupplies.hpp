@@ -1,7 +1,7 @@
 class Category_541 {
 	class ItemAntibiotic {
 		type = "trade_items";
-		buy[] = {300,"worth"};
+		buy[] = {3000,"worth"};
 		sell[] = {200,"worth"};
 	};
 	class ItemBandage {
@@ -116,7 +116,7 @@ class Category_541 {
 	};
 	class ItemKiloHemp {
 		type = "trade_items";
-		buy[] ={10000,"Dollars"};
-		sell[] ={10000,"Dollars"};
+		buy[] ={100000,"Dollars"};
+		sell[] ={100000,"Dollars"};
 	};
 };

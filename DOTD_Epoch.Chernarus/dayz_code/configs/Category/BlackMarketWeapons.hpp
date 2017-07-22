@@ -70,7 +70,7 @@ class M16A4_GL {type = "trade_weapons";buy[] ={65000,"worth"};sell[] ={20000,"wo
 class M4A1_Aim_camo {type = "trade_weapons";buy[] ={65000,"worth"};sell[] ={20000,"worth"};};
 class M4A1_HWS_GL {type = "trade_weapons";buy[] ={65000,"worth"};sell[] ={20000,"worth"};};\
 class BAF_L85A2_RIS_ACOG {type = "trade_weapons";buy[] ={60000,"worth"};sell[] ={5000,"worth"};};
-///class BAF_L85A2_RIS_CWS {type = "trade_weapons";buy[] ={60000,"worth"};sell[] ={5000,"worth"};};
+//class BAF_L85A2_RIS_CWS {type = "trade_weapons";buy[] ={60000,"worth"};sell[] ={5000,"worth"};};
 class BAF_L85A2_UGL_ACOG {type = "trade_weapons";buy[] ={60000,"worth"};sell[] ={5000,"worth"};};
 class BAF_L85A2_UGL_Holo {type = "trade_weapons";buy[] ={60000,"worth"};sell[] ={5000,"worth"};};
 class BAF_L85A2_UGL_SUSAT {type = "trade_weapons";buy[] ={85000,"worth"};sell[] ={5000,"worth"};};

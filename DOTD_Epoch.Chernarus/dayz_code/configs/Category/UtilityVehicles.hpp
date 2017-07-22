@@ -1,58 +1,58 @@
 class Category_565 {
 	class SUV_TK_CIV_EP1 {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_Blue {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_Charcoal {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_Green {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_Orange {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_Pink {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_Red {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_Silver {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_White {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_Yellow {
 		type = "trade_any_vehicle";
-		buy[] = {12000,"worth"};
-		sell[] = {8000,"worth"};
+		buy[] = {25000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class SUV_Camo {
 		type = "trade_any_vehicle";
-		buy[] = {15000,"worth"};
-		sell[] = {9000,"worth"};
+		buy[] = {30000,"worth"};
+		sell[] = {10000,"worth"};
 	};
 	class UAZ_CDF {
 		type = "trade_any_vehicle";

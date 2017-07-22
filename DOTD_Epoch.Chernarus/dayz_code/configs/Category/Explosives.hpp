@@ -21,8 +21,8 @@ class Category_529 {
 	};	
 	class PipeBomb {
 		type = "trade_items";
-		buy[] ={100000,"worth"};
-		sell[] ={10000,"worth"};
+		buy[] ={350000,"worth"};
+		sell[] ={100000,"worth"};
 	};
 	class BAF_ied_v1 {
 		type = "trade_items";

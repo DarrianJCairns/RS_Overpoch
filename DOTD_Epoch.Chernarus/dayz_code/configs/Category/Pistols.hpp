@@ -31,32 +31,32 @@ class Category_489 {
 	};
 	class RH_deagle {
 		type = "trade_weapons";
-		buy[] = {10000,"worth"};
+		buy[] = {40000,"worth"};
 		sell[] = {8000,"worth"};
 	};
 	class RH_Deagleg {
 		type = "trade_weapons";
-		buy[] = {15000,"worth"};
+		buy[] = {60000,"worth"};
 		sell[] = {9000,"worth"};
 	};
 	class RH_Deaglem {
 		type = "trade_weapons";
-		buy[] = {10000,"worth"};
+		buy[] = {40000,"worth"};
 		sell[] = {8000,"worth"};
 	};
 	class RH_Deaglemz {
 		type = "trade_weapons";
-		buy[] = {10000,"worth"};
+		buy[] = {40000,"worth"};
 		sell[] = {8000,"worth"};
 	};
 	class RH_Deaglemzb {
 		type = "trade_weapons";
-		buy[] = {10000,"worth"};
+		buy[] = {40000,"worth"};
 		sell[] = {8000,"worth"};
 	};
 	class RH_Deagles {
 		type = "trade_weapons";
-		buy[] = {10000,"worth"};
+		buy[] = {40000,"worth"};
 		sell[] = {8000,"worth"};
 	};
 	class RH_g17 {
